@@ -5,16 +5,17 @@
   "type": "module",
   "scripts": {
     "doctor": "python3 scripts/bench.py doctor",
-    "fixture": "python3 scripts/bench.py fixture",
+    "fixture": "python3 scripts/make_fixture.py",
     "verify": "python3 scripts/bench.py verify"
   },
   "dependencies": {
+    "@ffprobe-installer/ffprobe": "2.1.2",
     "@makemyclip/editor": "0.4.1",
+    "@modelcontextprotocol/sdk": "1.28.0",
     "@remotion/cli": "4.0.543",
     "@remotion/renderer": "4.0.543",
-    "remotion": "4.0.543",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "@modelcontextprotocol/sdk": "1.28.0"
+    "remotion": "4.0.543"
   }
 }

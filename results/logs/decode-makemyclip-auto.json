@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip-auto/media/makemyclip-auto.mp4",
+    "-f",
+    "null",
+    "-"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 0.04,
+  "observed_at": "2026-11-11T20:01:20.240704+00:00"
+}

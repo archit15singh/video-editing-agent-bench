@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/remotion",
+    "render",
+    "adapters/remotion/index.jsx",
+    "Benchmark",
+    "/Users/singh/projects/video-editing-agent-bench/results/remotion/media/remotion-revised.mp4",
+    "--public-dir",
+    "fixtures/generated",
+    "--props",
+    "{\"title\": \"Verified, editable, ready\"}",
+    "--codec",
+    "h264",
+    "--concurrency",
+    "2",
+    "--log",
+    "error"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 13.95,
+  "observed_at": "2026-11-11T19:57:54.525255+00:00"
+}

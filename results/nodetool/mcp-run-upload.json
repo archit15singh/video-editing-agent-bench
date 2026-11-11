@@ -1,0 +1,28 @@
+[
+  {
+    "action": {
+      "name": "upload_asset",
+      "arguments": {
+        "file_path": "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/source.mp4",
+        "name": "benchmark-source.mp4",
+        "content_type": "video/mp4"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"asset_id\":\"6b8592fad7744b61835680c76d497273\",\"asset_uri\":\"asset://6b8592fad7744b61835680c76d497273\",\"name\":\"benchmark-source.mp4\",\"content_type\":\"video/mp4\",\"size\":311182}"
+        }
+      ],
+      "structuredContent": {
+        "asset_id": "6b8592fad7744b61835680c76d497273",
+        "asset_uri": "asset://6b8592fad7744b61835680c76d497273",
+        "name": "benchmark-source.mp4",
+        "content_type": "video/mp4",
+        "size": 311182
+      }
+    },
+    "seconds": 0.07872308299999986
+  }
+]

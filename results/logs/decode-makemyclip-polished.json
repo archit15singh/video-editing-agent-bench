@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-polished.mp4",
+    "-f",
+    "null",
+    "-"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 0.042,
+  "observed_at": "2026-11-11T20:08:45.473578+00:00"
+}

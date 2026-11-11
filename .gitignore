@@ -7,3 +7,4 @@ results/*/media/
 *.pyc
 __pycache__/
 .DS_Store
+results/source-inspection/

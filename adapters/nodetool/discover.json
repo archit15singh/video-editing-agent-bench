@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Discover timeline editing capabilities",
+      "risk": "low",
+      "description": "",
+      "code": "return await nodetool.searchTools(\"timeline\");"
+    }
+  }
+]

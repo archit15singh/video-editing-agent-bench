@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-media",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/source.mp4",
+    "15.166666666666666",
+    "20.53333333333333",
+    "--start",
+    "9.766666666666666",
+    "--track",
+    "picture"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"media\",\n  \"clipId\": \"clip_591b0bf4\",\n  \"mediaId\": \"m_f1c688e208f9\",\n  \"trackId\": \"picture\",\n  \"startSec\": 9.766666666666666\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.199,
+  "observed_at": "2026-11-11T19:58:07.146950+00:00"
+}

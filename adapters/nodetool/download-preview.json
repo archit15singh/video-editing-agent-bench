@@ -1,0 +1,9 @@
+[
+  {
+    "name": "download_asset",
+    "arguments": {
+      "asset_id": "25e7e0bbf1e0",
+      "output_path": "/Users/singh/projects/video-editing-agent-bench/results/nodetool/media/contact-sheet.png"
+    }
+  }
+]

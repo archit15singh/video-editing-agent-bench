@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "rev": 15,
+  "cursor": 11,
+  "entries": [
+    {
+      "id": "dop_723d7cfd",
+      "label": "addTrack+addClip",
+      "forward": [
+        {
+          "op": "addTrack",
+          "track": {
+            "id": "picture",
+            "kind": "video",
+            "clips": [],
+            "transitions": [],
+            "muted": false
+          }
+        },
+        {
+          "op": "addClip",
+          "trackId": "picture",
+          "clip": {
+            "kind": "media",
+            "id": "clip_a5462fa1",
+            "startSec": 0,
+            "effects": [],
+            "mediaId": "m_f1c688e208f9",
+            "sourceInSec": 3.4,
+            "sourceOutSec": 8.066666666666666
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_a5462fa1"
+        },
+        {
+          "op": "removeTrack",
+          "trackId": "picture"
+        }
+      ]
+    },
+    {
+      "id": "dop_7a536083",
+      "label": "addTrack+addClip",
+      "forward": [
+        {
+          "op": "addTrack",
+          "track": {
+            "id": "captions",
+            "kind": "video",
+            "clips": [],
+            "transitions": [],
+            "muted": false
+          }
+        },
+        {
+          "op": "addClip",
+          "trackId": "captions",
+          "clip": {
+            "kind": "text",
+            "id": "clip_4557e610",
+            "startSec": 0,
+            "effects": [],
+            "text": "Welcome to the demo. We turn raw recordings into clear stories.",
+            "durationSec": 4.666666666666667,
+            "style": {
+              "fontSize": 30,
+              "color": "white",
+              "background": "black",
+              "anchor": "bottom-center"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_4557e610"
+        },
+        {
+          "op": "removeTrack",
+          "trackId": "captions"
+        }
+      ]
+    },
+    {
+      "id": "dop_ba8ed424",
+      "label": "addClip",
+      "forward": [
+        {
+          "op": "addClip",
+          "trackId": "picture",
+          "clip": {
+            "kind": "media",
+            "id": "clip_633e2d7c",
+            "startSec": 4.666666666666667,
+            "effects": [],
+            "mediaId": "m_f1c688e208f9",
+            "sourceInSec": 10.066666666666666,
+            "sourceOutSec": 15.166666666666666
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_633e2d7c"
+        }
+      ]
+    },
+    {
+      "id": "dop_e68a39a7",
+      "label": "addClip",
+      "forward": [
+        {
+          "op": "addClip",
+          "trackId": "captions",
+          "clip": {
+            "kind": "text",
+            "id": "clip_93490086",
+            "startSec": 4.666666666666667,
+            "effects": [],
+            "text": "First, remove mistakes. Then add titles and readable captions.",
+            "durationSec": 5.1,
+            "style": {
+              "fontSize": 30,
+              "color": "white",
+              "background": "black",
+              "anchor": "bottom-center"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_93490086"
+        }
+      ]
+    },
+    {
+      "id": "dop_c228f893",
+      "label": "addClip",
+      "forward": [
+        {
+          "op": "addClip",
+          "trackId": "picture",
+          "clip": {
+            "kind": "media",
+            "id": "clip_591b0bf4",
+            "startSec": 9.766666666666666,
+            "effects": [],
+            "mediaId": "m_f1c688e208f9",
+            "sourceInSec": 15.166666666666666,
+            "sourceOutSec": 20.53333333333333
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_591b0bf4"
+        }
+      ]
+    },
+    {
+      "id": "dop_1d3ae739",
+      "label": "addClip",
+      "forward": [
+        {
+          "op": "addClip",
+          "trackId": "captions",
+          "clip": {
+            "kind": "text",
+            "id": "clip_15f0d464",
+            "startSec": 9.766666666666666,
+            "effects": [],
+            "text": "Finally, verify the export. Every edit should be easy to revise.",
+            "durationSec": 5.366666666666666,
+            "style": {
+              "fontSize": 30,
+              "color": "white",
+              "background": "black",
+              "anchor": "bottom-center"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_15f0d464"
+        }
+      ]
+    },
+    {
+      "id": "dop_3a424d7c",
+      "label": "addTrack+addClip",
+      "forward": [
+        {
+          "op": "addTrack",
+          "track": {
+            "id": "titles",
+            "kind": "video",
+            "clips": [],
+            "transitions": [],
+            "muted": false
+          }
+        },
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_3a44052a",
+            "startSec": 0,
+            "effects": [],
+            "text": "From raw to ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 58,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-center"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_3a44052a"
+        },
+        {
+          "op": "removeTrack",
+          "trackId": "titles"
+        }
+      ]
+    },
+    {
+      "id": "dop_8eb46490",
+      "label": "removeClip",
+      "forward": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_3a44052a"
+        }
+      ],
+      "inverse": [
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_3a44052a",
+            "startSec": 0,
+            "effects": [],
+            "text": "From raw to ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 58,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dop_798d3b11",
+      "label": "addClip",
+      "forward": [
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_f915a935",
+            "startSec": 0,
+            "effects": [],
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 58,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-center"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_f915a935"
+        }
+      ]
+    },
+    {
+      "id": "dop_bf3ffe3a",
+      "label": "removeClip+addClip",
+      "forward": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_f915a935"
+        },
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_1a5cb883",
+            "startSec": 0,
+            "effects": [],
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 40,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-right"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_1a5cb883"
+        },
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_f915a935",
+            "startSec": 0,
+            "effects": [],
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 58,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-center"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dop_54790a82",
+      "label": "removeClip+addClip",
+      "forward": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_1a5cb883"
+        },
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_86ce4f8e",
+            "startSec": 0,
+            "effects": [],
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 40,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-right"
+            }
+          }
+        }
+      ],
+      "inverse": [
+        {
+          "op": "removeClip",
+          "clipId": "clip_86ce4f8e"
+        },
+        {
+          "op": "addClip",
+          "trackId": "titles",
+          "clip": {
+            "kind": "text",
+            "id": "clip_1a5cb883",
+            "startSec": 0,
+            "effects": [],
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "style": {
+              "fontSize": 40,
+              "color": "white",
+              "background": "black",
+              "anchor": "top-right"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

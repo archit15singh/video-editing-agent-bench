@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "export",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-revised.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-revised.mp4\",\n  \"steps\": 5,\n  \"durationSec\": 15.133333333333331,\n  \"durationMs\": 1118\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 1.248,
+  "observed_at": "2026-11-11T19:58:10.922166+00:00"
+}

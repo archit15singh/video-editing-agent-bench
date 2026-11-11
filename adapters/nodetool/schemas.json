@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Read timeline operation schemas",
+      "risk": "low",
+      "description": "",
+      "code": "return await nodetool.searchTools(\"select:create_timeline,get_timeline,edit_timeline,validate_timeline,preview_timeline_frame,render_timeline,get_job,list_timeline_versions,create_timeline_version\");"
+    }
+  }
+]

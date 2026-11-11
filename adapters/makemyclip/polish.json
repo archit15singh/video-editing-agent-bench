@@ -1,0 +1,39 @@
+[
+  {
+    "name": "timeline_show",
+    "arguments": {}
+  },
+  {
+    "name": "timeline_edit",
+    "arguments": {
+      "verbs": [
+        {
+          "verb": "remove",
+          "clipId": "clip_f915a935"
+        },
+        {
+          "verb": "add_text",
+          "text": "Verified, editable, ready",
+          "durationSec": 3,
+          "startSec": 0,
+          "track": "titles",
+          "fontSize": 40,
+          "anchor": "top-right",
+          "background": "black"
+        }
+      ]
+    }
+  },
+  {
+    "name": "timeline_export",
+    "arguments": {
+      "output": "makemyclip-polished.mp4"
+    }
+  },
+  {
+    "name": "timeline_show",
+    "arguments": {
+      "atSec": 1
+    }
+  }
+]

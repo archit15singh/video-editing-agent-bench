@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/run_makemyclip.py", line 25, in <module>
+    clip('add-media','source.mp4',str(s['source_start']),str(s['source_end']),'--start',str(s['edit_start']),'--track','picture')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/run_makemyclip.py", line 20, in clip
+    return json.loads(run([cli,'timeline',*args],f'makemyclip-{count:02d}-{args[0]}',env=env))
+                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/bench.py", line 34, in run
+    raise RuntimeError(f'{name} failed: see results/logs/{name}.json')
+RuntimeError: makemyclip-02-add-media failed: see results/logs/makemyclip-02-add-media.json

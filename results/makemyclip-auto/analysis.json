@@ -1,0 +1,34 @@
+{
+  "silence": {
+    "clipId": "clip_5c026187",
+    "sensitivity": 0.5,
+    "silenceCount": 4,
+    "removedSec": 5.662,
+    "keepRegions": [
+      {
+        "sourceInSec": 0,
+        "sourceOutSec": 2.43523
+      },
+      {
+        "sourceInSec": 3.3701,
+        "sourceOutSec": 7.18396
+      },
+      {
+        "sourceInSec": 10.1372,
+        "sourceOutSec": 14.3288
+      },
+      {
+        "sourceInSec": 15.1982,
+        "sourceOutSec": 19.6456
+      }
+    ],
+    "applied": false,
+    "dryRun": true
+  },
+  "retakes": {
+    "clipId": "clip_5c026187",
+    "applied": false,
+    "ranges": [],
+    "message": "Nothing to cut in this clip."
+  }
+}

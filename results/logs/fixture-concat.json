@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-y",
+    "-f",
+    "concat",
+    "-safe",
+    "0",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/concat.txt",
+    "-c",
+    "copy",
+    "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/source.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvvenc --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      61.  1.100 / 61.  1.100\n  libavcodec     63.  1.100 / 63.  1.100\n  libavformat    63.  1.100 / 63.  1.100\n  libavdevice    63.  1.100 / 63.  1.100\n  libavfilter    12.  1.100 / 12.  1.100\n  libswscale     10.  1.100 / 10.  1.100\n  libswresample   7.  1.100 /  7.  1.100\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x125608440] Auto-inserting h264_mp4toannexb bitstream filter\nInput #0, concat, from '/Users/singh/projects/video-editing-agent-bench/fixtures/generated/concat.txt':\n  Duration: N/A, start: -0.021333, bitrate: 115 kb/s\n  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 17 kb/s, 30 fps, 30 tbr, 15360 tbn\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.100 libx264\n  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 98 kb/s, start -0.021333\n    Metadata:\n      handler_name    : SoundHandler\nStream mapping:\n  Stream #0:0 -> #0:0 (copy)\n  Stream #0:1 -> #0:1 (copy)\nOutput #0, mp4, to '/Users/singh/projects/video-editing-agent-bench/fixtures/generated/source.mp4':\n  Metadata:\n    encoder         : Lavf63.1.100\n  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 17 kb/s, 30 fps, 30 tbr, 15360 tbn\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.100 libx264\n  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 98 kb/s\n    Metadata:\n      handler_name    : SoundHandler\nPress [q] to stop, [?] for help\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x126004080] Auto-inserting h264_mp4toannexb bitstream filter\n[aost#0:1/copy @ 0x1260137e0] Non-monotonic DTS; previous: 163840, current: 163200; changing to 163841. This may result in incorrect timestamps in the output file.\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x125608300] Auto-inserting h264_mp4toannexb bitstream filter\n[aost#0:1/copy @ 0x1260137e0] Non-monotonic DTS; previous: 387456, current: 387200; changing to 387457. This may result in incorrect timestamps in the output file.\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x125608300] Auto-inserting h264_mp4toannexb bitstream filter\n[aost#0:1/copy @ 0x1260137e0] Non-monotonic DTS; previous: 483456, current: 483200; changing to 483457. This may result in incorrect timestamps in the output file.\n[mov,mp4,m4a,3gp,3g2,mj2 @ 0x126012610] Auto-inserting h264_mp4toannexb bitstream filter\n[aost#0:1/copy @ 0x1260137e0] Non-monotonic DTS; previous: 728960, current: 728000; changing to 728961. This may result in incorrect timestamps in the output file.\n[out#0/mp4 @ 0x600001044600] video:39KiB audio:241KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 8.446566%\nframe=  616 fps=0.0 q=-1.0 Lsize=     304KiB time=00:00:20.55 bitrate= 121.1kbits/s speed=3.68e+03x elapsed=0:00:00.00    \n",
+  "elapsed_seconds": 0.022,
+  "observed_at": "2026-11-11T19:57:11.639966+00:00"
+}

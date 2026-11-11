@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Smoke test local timeline rendering",
+      "risk": "low",
+      "description": "",
+      "code": "import { get_timeline, edit_timeline, validate_timeline, preview_timeline_frame, render_timeline } from \"@nodetool-ai/sandbox-nodetool/timelines\";\nconst id=\"210f92ac67a9\";\nconst before=await get_timeline({timeline_id:id});console.log(JSON.stringify(before));\nconst edited=await edit_timeline({timeline_id:id,ops:[{op:\"add_text_clip\",text:\"Benchmark setup check\",startMs:0,durationMs:1000,fontSizePx:54,color:\"#ffffff\",background:{color:\"#101827\",paddingPx:16,radiusPx:8}}]});console.log(JSON.stringify(edited));\nconst validation=await validate_timeline({timeline_id:id});console.log(JSON.stringify(validation));\nlet preview;try{preview=await preview_timeline_frame({timeline_id:id,times_ms:[500],width:640});}catch(e){preview={error:String(e)}}console.log(JSON.stringify(preview));\nlet render;try{render=await render_timeline({timeline_id:id,wait:true,timeout_ms:120000});}catch(e){render={error:String(e)}}\nreturn {edited,validation,preview,render};"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-text",
+    "Verified, editable, ready",
+    "3",
+    "--start",
+    "0",
+    "--track",
+    "titles",
+    "--font",
+    "58",
+    "--anchor",
+    "top-center",
+    "--background",
+    "black"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"text\",\n  \"clipId\": \"clip_f915a935\",\n  \"trackId\": \"titles\",\n  \"startSec\": 0\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.138,
+  "observed_at": "2026-11-11T19:58:09.674311+00:00"
+}

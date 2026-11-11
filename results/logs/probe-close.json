@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffprobe",
+    "-v",
+    "error",
+    "-show_format",
+    "-show_streams",
+    "-of",
+    "json",
+    "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/close.aiff"
+  ],
+  "returncode": 0,
+  "stdout": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"pcm_s16be\",\n            \"codec_long_name\": \"PCM signed 16-bit big-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_tag_string\": \"twos\",\n            \"codec_tag\": \"0x736f7774\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"22050\",\n            \"channels\": 1,\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/22050\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 100896,\n            \"duration\": \"4.575782\",\n            \"bit_rate\": \"352800\",\n            \"nb_frames\": \"100896\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Users/singh/projects/video-editing-agent-bench/fixtures/generated/close.aiff\",\n        \"nb_streams\": 1,\n        \"nb_programs\": 0,\n        \"format_name\": \"aiff\",\n        \"format_long_name\": \"Audio IFF\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"4.575782\",\n        \"size\": \"205888\",\n        \"bit_rate\": \"359961\",\n        \"probe_score\": 100\n    }\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.005,
+  "observed_at": "2026-11-11T19:57:11.475350+00:00"
+}

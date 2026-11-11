@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "silence",
+    "clip_5c026187",
+    "--dry-run"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"clipId\": \"clip_5c026187\",\n  \"sensitivity\": 0.5,\n  \"silenceCount\": 4,\n  \"removedSec\": 5.662,\n  \"keepRegions\": [\n    {\n      \"sourceInSec\": 0,\n      \"sourceOutSec\": 2.43523\n    },\n    {\n      \"sourceInSec\": 3.3701,\n      \"sourceOutSec\": 7.18396\n    },\n    {\n      \"sourceInSec\": 10.1372,\n      \"sourceOutSec\": 14.3288\n    },\n    {\n      \"sourceInSec\": 15.1982,\n      \"sourceOutSec\": 19.6456\n    }\n  ],\n  \"applied\": false,\n  \"dryRun\": true\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.193,
+  "observed_at": "2026-11-11T20:00:11.509185+00:00"
+}

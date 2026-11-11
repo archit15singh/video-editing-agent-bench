@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "id": "node",
+      "label": "Node.js",
+      "status": "ok",
+      "detail": "26.12.0"
+    },
+    {
+      "id": "ffmpeg",
+      "label": "FFmpeg",
+      "status": "ok",
+      "detail": "6.0 (bundled ffmpeg-static) /Users/singh/projects/video-editing-agent-bench/node_modules/ffmpeg-static/ffmpeg"
+    },
+    {
+      "id": "drawtext",
+      "label": "Text and captions",
+      "status": "ok",
+      "detail": "drawtext filter"
+    },
+    {
+      "id": "vidstab",
+      "label": "Stabilization",
+      "status": "ok",
+      "detail": "vidstab filters"
+    },
+    {
+      "id": "workspace",
+      "label": "Workspace",
+      "status": "ok",
+      "detail": "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media (MAKEMYCLIP_WORKSPACE)"
+    },
+    {
+      "id": "font",
+      "label": "Caption font",
+      "status": "ok",
+      "detail": "/System/Library/Fonts/Supplemental/Arial.ttf"
+    },
+    {
+      "id": "whisper",
+      "label": "whisper.cpp (optional)",
+      "status": "warn",
+      "detail": "whisper-cli (installed) doesn't run: not found. Optional: transcript cuts, retake removal and captions need it.",
+      "fix": "Install or reinstall whisper.cpp (`brew install whisper-cpp`). whisper-cli is found on PATH and in Homebrew's folder; or set MAKEMYCLIP_WHISPER_PATH to it."
+    },
+    {
+      "id": "whisper-model",
+      "label": "Whisper model (optional)",
+      "status": "warn",
+      "detail": "MAKEMYCLIP_WHISPER_MODEL is not set. Optional: transcript cuts, retake removal and captions need it.",
+      "fix": "Download a model such as ggml-base.en.bin from https://huggingface.co/ggerganov/whisper.cpp and set MAKEMYCLIP_WHISPER_MODEL to its path."
+    }
+  ],
+  "howToSet": "Set environment variables in your shell profile; for `clip mcp`, set them in the MCP client config for the server."
+}

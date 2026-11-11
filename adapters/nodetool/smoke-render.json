@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Retry preview and local export",
+      "risk": "low",
+      "description": "",
+      "code": "import { get_timeline, preview_timeline_frame, render_timeline } from \"@nodetool-ai/sandbox-nodetool/timelines\";const id=\"210f92ac67a9\";\nconst state=await get_timeline({timeline_id:id});let preview;try{preview=await preview_timeline_frame({timeline_id:id,times_ms:[500],width:640});}catch(e){preview={error:String(e)}}console.log(JSON.stringify(preview));let render;try{render=await render_timeline({timeline_id:id,wait:true,timeout_ms:120000});}catch(e){render={error:String(e)}}return {state,preview,render};"
+    }
+  }
+]

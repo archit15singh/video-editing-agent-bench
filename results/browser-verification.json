@@ -1,0 +1,19 @@
+{
+  "browser": "Brave",
+  "report": "artifacts/comparison.html",
+  "observed_date": "2026-11-12",
+  "checks": {
+    "report_loaded": true,
+    "play_both_started_both_videos": true,
+    "remotion_muted_to_avoid_duplicate_audio": true,
+    "pause_both_paused_both_videos": true,
+    "screenshot_layout_inspected": true
+  },
+  "paused_times_seconds": [
+    12.6207,
+    12.631
+  ],
+  "limitations": [
+    "No listening-based audio assessment claimed."
+  ]
+}

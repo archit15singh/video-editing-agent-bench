@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-text",
+    "Welcome to the demo. We turn raw recordings into clear stories.",
+    "4.666666666666667",
+    "--start",
+    "0",
+    "--track",
+    "captions",
+    "--font",
+    "30",
+    "--anchor",
+    "bottom",
+    "--background",
+    "black"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Error: [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"top-left\",\n      \"top-center\",\n      \"top-right\",\n      \"center-left\",\n      \"center\",\n      \"center-right\",\n      \"bottom-left\",\n      \"bottom-center\",\n      \"bottom-right\"\n    ],\n    \"path\": [\n      \"style\",\n      \"anchor\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"top-left\\\"|\\\"top-center\\\"|\\\"top-right\\\"|\\\"center-left\\\"|\\\"center\\\"|\\\"center-right\\\"|\\\"bottom-left\\\"|\\\"bottom-center\\\"|\\\"bottom-right\\\"\"\n  }\n]\n",
+  "elapsed_seconds": 0.162,
+  "observed_at": "2026-11-11T19:57:47.939014+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "export",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip.fcpxml",
+    "--format",
+    "fcpxml"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip.fcpxml\",\n  \"format\": \"fcpxml\",\n  \"files\": [\n    \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip.fcpxml\"\n  ],\n  \"durationSec\": 15.133333333333333,\n  \"notes\": [\n    \"Text background boxes aren't carried: Basic Title has no box, so captions and titles show without theirs. Add one in the editor.\"\n  ]\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.14,
+  "observed_at": "2026-11-11T19:58:09.393371+00:00"
+}

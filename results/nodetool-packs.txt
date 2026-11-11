@@ -1,0 +1,59 @@
+ id               │ kind            │ installed │ version │ bytes     │ nodes │ required_by 
+──────────────────┼─────────────────┼───────────┼─────────┼───────────┼───────┼─────────────
+ atlascloud       │ node-pack       │ false     │         │ 106979328 │ 180   │             
+ audio            │ node-pack       │ false     │         │ 160858112 │ 60    │             
+ automation       │ node-pack       │ false     │         │ 106782720 │ 7     │             
+ blender          │ node-pack       │ false     │         │ 107159552 │ 6     │             
+ cli-admin        │ cli-feature     │ false     │         │ 423370752 │ 0     │             
+ cli-apps         │ cli-feature     │ false     │         │ 340365312 │ 0     │             
+ cli-chat         │ cli-feature     │ false     │         │ 376459264 │ 0     │             
+ cli-game         │ cli-feature     │ false     │         │ 236642304 │ 0     │             
+ cli-harness      │ cli-feature     │ false     │         │ 750567424 │ 0     │             
+ cli-mcp          │ cli-feature     │ false     │         │ 432881664 │ 0     │             
+ cli-models       │ cli-feature     │ false     │         │ 232812544 │ 0     │             
+ cli-script       │ cli-feature     │ false     │         │ 340070400 │ 0     │             
+ cli-server       │ cli-feature     │ false     │         │ 432861184 │ 0     │             
+ cli-sketch       │ cli-feature     │ false     │         │ 310476800 │ 0     │             
+ cli-timeline     │ cli-feature     │ false     │         │ 496812032 │ 0     │             
+ cli-workflow     │ cli-feature     │ false     │         │ 344305664 │ 0     │             
+ code             │ core            │ false     │         │ 281571328 │ 1     │             
+ core             │ core            │ false     │         │ 182542336 │ 113   │             
+ data             │ core            │ false     │         │ 113799168 │ 3     │             
+ document         │ node-pack       │ false     │         │ 256200704 │ 10    │             
+ elevenlabs       │ node-pack       │ false     │         │ 106627072 │ 5     │             
+ email-imap       │ runtime-library │ false     │         │           │       │             
+ esbuild          │ runtime-library │ false     │         │           │       │             
+ fabric           │ runtime-library │ false     │         │           │       │             
+ fal              │ node-pack       │ false     │         │ 123351040 │ 1645  │             
+ game             │ node-pack       │ false     │         │ 227409920 │ 3     │             
+ higgsfield       │ node-pack       │ false     │         │ 106680320 │ 80    │             
+ huggingface      │ node-pack       │ false     │         │ 106663936 │ 19    │             
+ image            │ node-pack       │ false     │         │ 132960256 │ 103   │             
+ imaging          │ runtime-library │ false     │         │           │       │             
+ integration      │ node-pack       │ false     │         │ 111972352 │ 7     │             
+ kie              │ node-pack       │ false     │         │ 108072960 │ 180   │             
+ llm              │ core            │ false     │         │ 281448448 │ 45    │             
+ manimgx          │ node-pack       │ false     │         │ 281636864 │ 3     │             
+ media-codecs     │ runtime-library │ false     │         │           │       │             
+ minimax          │ node-pack       │ false     │         │ 106631168 │ 6     │             
+ node-llama-cpp   │ runtime-library │ false     │         │           │       │             
+ office-documents │ runtime-library │ false     │         │           │       │             
+ pdf-js           │ runtime-library │ false     │         │           │       │             
+ playwright       │ runtime-library │ false     │         │           │       │             
+ rapier           │ runtime-library │ false     │         │           │       │             
+ replicate        │ node-pack       │ false     │         │ 109387776 │ 662   │             
+ reve             │ node-pack       │ false     │         │ 106565632 │ 3     │             
+ tensorflow-js    │ runtime-library │ false     │         │           │       │             
+ tesseract-ocr    │ runtime-library │ false     │         │           │       │             
+ text             │ core            │ false     │         │ 106774528 │ 15    │             
+ together         │ node-pack       │ false     │         │ 106659840 │ 56    │             
+ tokenizer        │ runtime-library │ false     │         │           │       │             
+ topaz            │ node-pack       │ false     │         │ 106582016 │ 11    │             
+ tracing          │ runtime-library │ false     │         │           │       │             
+ transformers-js  │ node-pack       │ false     │         │ 161705984 │ 17    │             
+ transformers-js  │ runtime-library │ false     │         │           │       │             
+ typescript       │ runtime-library │ false     │         │           │       │             
+ video            │ node-pack       │ false     │         │ 312004608 │ 73    │             
+ webgpu           │ runtime-library │ false     │         │           │       │             
+ whisper-cpp      │ node-pack       │ false     │         │ 161652736 │ 1     │             
+ whisper-cpp      │ runtime-library │ false     │         │           │       │             

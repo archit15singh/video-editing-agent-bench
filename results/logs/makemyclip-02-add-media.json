@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-media",
+    "source.mp4",
+    "3.4",
+    "8.066666666666666",
+    "--start",
+    "0",
+    "--track",
+    "picture"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Error: ffmpeg probe failed for /Users/singh/projects/video-editing-agent-bench/source.mp4 (exit 1):\n/Users/singh/projects/video-editing-agent-bench/source.mp4: No such file or directory\n",
+  "elapsed_seconds": 0.182,
+  "observed_at": "2026-11-11T19:57:24.865465+00:00"
+}

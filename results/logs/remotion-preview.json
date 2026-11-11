@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/remotion",
+    "still",
+    "adapters/remotion/index.jsx",
+    "Benchmark",
+    "/Users/singh/projects/video-editing-agent-bench/results/remotion/media/preview.jpg",
+    "--public-dir",
+    "fixtures/generated",
+    "--frame",
+    "30",
+    "--props",
+    "{\"title\": \"Verified, editable, ready\"}"
+  ],
+  "returncode": 0,
+  "stdout": "Bundling 6%\nBundling 13%\nBundling 41%\nBundling 65%\nBundling 71%\nBundling 76%\nBundling 81%\nBundling 87%\nBundling 92%\nBundling 98%\nBundling 100%\nGetting composition\nComposition          Benchmark\nFormat               jpeg\nOutput               /Users/singh/projects/video-editing-agent-bench/results/remotion/media/preview.jpg\nRendered 0/1\nRendered 0/1\nRendered 1/1\n+                    /Users/singh/projects/video-editing-agent-bench/results/remotion/media/preview.jpg\n",
+  "stderr": "",
+  "elapsed_seconds": 1.581,
+  "observed_at": "2026-11-11T19:57:56.106653+00:00"
+}

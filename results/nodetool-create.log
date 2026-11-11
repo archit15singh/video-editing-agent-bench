@@ -1,0 +1,2 @@
+Connected nodetool: 14 tools in 1.46s
+{"content":[{"type":"text","text":"{\"ok\":true,\"toolCalls\":0,\"result\":{\"ok\":true,\"timeline_id\":\"210f92ac67a9\",\"name\":\"Video editing benchmark\",\"fps\":30,\"width\":1280,\"height\":720,\"project_id\":\"default\",\"updated_at\":\"2026-11-11T19:54:11.635Z\"},\"logs\":[\"{\\\"ok\\\":true,\\\"timeline_id\\\":\\\"210f92ac67a9\\\",\\\"name\\\":\\\"Video editing benchmark\\\",\\\"fps\\\":30,\\\"width\\\":1280,\\\"height\\\":720,\\\"project_id\\\":\\\"default\\\",\\\"updated_at\\\":\\\"2026-11-11T19:54:11.635Z\\\"}\"]}"}]}

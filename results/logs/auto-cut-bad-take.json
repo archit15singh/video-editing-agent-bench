@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "cut-words",
+    "clip_5c026187",
+    "0",
+    "7"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"clipId\": \"clip_5c026187\",\n  \"applied\": true,\n  \"ranges\": [\n    {\n      \"fromIndex\": 0,\n      \"toIndex\": 7\n    }\n  ],\n  \"rev\": 3\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.151,
+  "observed_at": "2026-11-11T20:00:53.469010+00:00"
+}

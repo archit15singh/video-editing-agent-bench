@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "check",
+    "--sheet",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/cuts.jpg"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"cuts\": [\n    {\n      \"trackId\": \"picture\",\n      \"atSec\": 4.666666666666666,\n      \"outClipId\": \"clip_a5462fa1\",\n      \"inClipId\": \"clip_633e2d7c\",\n      \"outPeakDb\": -91,\n      \"inPeakDb\": -37.7,\n      \"flagged\": false,\n      \"reason\": null\n    },\n    {\n      \"trackId\": \"picture\",\n      \"atSec\": 9.766666666666666,\n      \"outClipId\": \"clip_633e2d7c\",\n      \"inClipId\": \"clip_591b0bf4\",\n      \"outPeakDb\": -91,\n      \"inPeakDb\": -39.9,\n      \"flagged\": false,\n      \"reason\": null\n    }\n  ],\n  \"flagged\": 0,\n  \"sheet\": {\n    \"path\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/cuts.jpg\",\n    \"cuts\": 2,\n    \"truncated\": false\n  },\n  \"sheetError\": null\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.287,
+  "observed_at": "2026-11-11T19:58:07.870918+00:00"
+}

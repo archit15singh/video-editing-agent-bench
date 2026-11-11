@@ -1,0 +1,245 @@
+{
+  "timeline": {
+    "id": "83a5dfb0f663",
+    "projectId": "default",
+    "name": "Synthetic edit comparison",
+    "fps": 30,
+    "width": 1280,
+    "height": 720,
+    "durationMs": 15134,
+    "tracks": [
+      {
+        "id": "2c749be4ef21",
+        "name": "Text",
+        "type": "overlay",
+        "index": 0,
+        "visible": true,
+        "locked": false
+      },
+      {
+        "id": "dbdfa0c98952",
+        "name": "Caption overlays",
+        "type": "overlay",
+        "index": 1,
+        "visible": true,
+        "locked": false
+      },
+      {
+        "id": "7edaad681bc1",
+        "name": "Captions",
+        "type": "subtitle",
+        "index": 2,
+        "visible": true,
+        "locked": false
+      },
+      {
+        "id": "75caad707b4b",
+        "name": "Video 2",
+        "type": "video",
+        "index": 3,
+        "visible": true,
+        "locked": false
+      }
+    ],
+    "clips": [
+      {
+        "id": "7acebdcdac16",
+        "trackId": "2c749be4ef21435eaf69aba2a4621700",
+        "name": "Title",
+        "startMs": 0,
+        "durationMs": 3000,
+        "mediaType": "text",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "textStyle": {
+          "text": "Verified, editable, ready",
+          "fontSizePx": 58,
+          "color": "#ffffff",
+          "background": {
+            "color": "#000000",
+            "paddingPx": 14,
+            "radiusPx": 8
+          }
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": -160
+          },
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "rotation": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "001a15ee3697",
+        "trackId": "dbdfa0c9895241ffb10bca3edfecd932",
+        "name": "Caption intro",
+        "startMs": 0,
+        "durationMs": 4667,
+        "mediaType": "text",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "textStyle": {
+          "fontSizePx": 30,
+          "color": "#ffffff",
+          "background": {
+            "color": "#000000",
+            "paddingPx": 16,
+            "radiusPx": 8
+          },
+          "text": "Welcome to the demo. We turn raw recordings into clear stories."
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 270
+          },
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "rotation": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "58c07583a0a0",
+        "trackId": "75caad707b4b4a969e5f15b96f175750",
+        "name": "intro",
+        "startMs": 0,
+        "durationMs": 4667,
+        "mediaType": "video",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "currentAssetId": "6b8592fad7744b61835680c76d497273",
+        "inPointMs": 3400,
+        "outPointMs": 8067
+      },
+      {
+        "id": "17046a79e7a6",
+        "trackId": "dbdfa0c9895241ffb10bca3edfecd932",
+        "name": "Caption feature",
+        "startMs": 4667,
+        "durationMs": 5100,
+        "mediaType": "text",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "textStyle": {
+          "fontSizePx": 30,
+          "color": "#ffffff",
+          "background": {
+            "color": "#000000",
+            "paddingPx": 16,
+            "radiusPx": 8
+          },
+          "text": "First, remove mistakes. Then add titles and readable captions."
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 270
+          },
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "rotation": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "355a580a1bd7",
+        "trackId": "75caad707b4b4a969e5f15b96f175750",
+        "name": "feature",
+        "startMs": 4667,
+        "durationMs": 5100,
+        "mediaType": "video",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "currentAssetId": "6b8592fad7744b61835680c76d497273",
+        "inPointMs": 10067,
+        "outPointMs": 15167
+      },
+      {
+        "id": "7fcb57d1aebf",
+        "trackId": "dbdfa0c9895241ffb10bca3edfecd932",
+        "name": "Caption close",
+        "startMs": 9767,
+        "durationMs": 5367,
+        "mediaType": "text",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "textStyle": {
+          "fontSizePx": 30,
+          "color": "#ffffff",
+          "background": {
+            "color": "#000000",
+            "paddingPx": 16,
+            "radiusPx": 8
+          },
+          "text": "Finally, verify the export. Every edit should be easy to revise."
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 270
+          },
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "rotation": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "97f5fa35255f",
+        "trackId": "75caad707b4b4a969e5f15b96f175750",
+        "name": "close",
+        "startMs": 9767,
+        "durationMs": 5367,
+        "mediaType": "video",
+        "sourceType": "imported",
+        "status": "generated",
+        "locked": false,
+        "versions": [],
+        "currentAssetId": "6b8592fad7744b61835680c76d497273",
+        "inPointMs": 15167,
+        "outPointMs": 20533
+      }
+    ],
+    "markers": [],
+    "transcript": [],
+    "createdAt": "2026-11-11T19:58:45.530Z",
+    "updatedAt": "2026-11-11T20:01:54.033Z"
+  },
+  "revision": 8
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "remove-retakes",
+    "clip_5c026187",
+    "--dry-run"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"clipId\": \"clip_5c026187\",\n  \"applied\": false,\n  \"ranges\": [],\n  \"message\": \"Nothing to cut in this clip.\"\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.14,
+  "observed_at": "2026-11-11T20:00:11.649097+00:00"
+}

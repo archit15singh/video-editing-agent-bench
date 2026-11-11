@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "frame",
+    "1",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/preview.jpg"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"frame\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/preview.jpg\",\n  \"atSec\": 1\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.32,
+  "observed_at": "2026-11-11T19:58:11.242464+00:00"
+}

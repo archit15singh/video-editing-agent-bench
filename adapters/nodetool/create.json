@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Create isolated benchmark timeline",
+      "risk": "low",
+      "description": "",
+      "code": "import { create_timeline, get_timeline } from \"@nodetool-ai/sandbox-nodetool/timelines\"; const created = await create_timeline({name:\"Video editing benchmark\",width:1280,height:720,fps:30}); console.log(JSON.stringify(created)); return created;"
+    }
+  }
+]

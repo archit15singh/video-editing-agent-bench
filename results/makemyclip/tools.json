@@ -1,0 +1,555 @@
+{
+  "tools": [
+    {
+      "name": "timeline_show",
+      "title": "Show the timeline",
+      "description": "Read the current timeline document — tracks, clips, timings, and whether it can render (exportable + any blockers). Pass atSec to also get the rendered frame at that time as an image. Call this to ground yourself BEFORE editing and to VERIFY a change AFTER.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "atSec": {
+            "description": "Also return the frame export would render at this timeline time, as an image.",
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_check",
+      "title": "Check the cuts",
+      "description": "Review every hard cut (abutting clips with no transition). Reports cuts whose audio is loud right at the edge, which usually means a clipped word or a click, and returns a contact sheet image: one row per cut, the outgoing clip's last frame then the incoming clip's first. Run it after cutting (e.g. remove_silence) and before exporting.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_edit",
+      "title": "Edit the timeline",
+      "description": "Apply one or more editing verbs to the document as ONE undoable change. Verbs: add_media, add_text, add_color, trim, move, split, remove, remove_silence, cut_words, remove_retakes, caption_speech, transition. remove_silence cuts the pauses out of a media clip (sensitivity 0–1, default 0.5) and moves later clips on its track up; it applies nothing when no pause is found. cut_words cuts words fromIndex..toIndex out of a clip, sending the transcriptId from the timeline_transcript call they came from; remove_retakes cuts the earlier take of each phrase said twice in a row. caption_speech turns stored transcripts into captions on a track above the video (short phrases, or one word at a time with maxWords 1), replacing captions already there; export burns them in. Captions do not move with later cuts, so caption after cutting, or run it again after a cut. Batch related verbs into a single call. Media paths must be inside the workspace. Returns the updated document summary, including whether it can now render.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "verbs": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "add_media"
+                    },
+                    "id": {
+                      "description": "Optional clip id — supply one to reference this clip in a later verb of the SAME batch.",
+                      "type": "string"
+                    },
+                    "path": {
+                      "type": "string",
+                      "description": "Absolute or workspace-relative path to a video/audio/image file."
+                    },
+                    "track": {
+                      "description": "Track id to place it on (default: the main video track).",
+                      "type": "string"
+                    },
+                    "startSec": {
+                      "description": "Timeline start; default appends after the last clip.",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "sourceInSec": {
+                      "description": "Trim in-point within the source (default 0).",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "sourceOutSec": {
+                      "description": "Trim out-point within the source (default the full duration).",
+                      "type": "number",
+                      "exclusiveMinimum": 0
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "path"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "add_text"
+                    },
+                    "id": {
+                      "description": "Optional clip id — supply one to reference this clip in a later verb of the SAME batch.",
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1,
+                      "description": "The text to show."
+                    },
+                    "durationSec": {
+                      "type": "number",
+                      "exclusiveMinimum": 0,
+                      "description": "How long the text is on screen."
+                    },
+                    "track": {
+                      "type": "string"
+                    },
+                    "startSec": {
+                      "description": "Timeline start; default appends after the last clip.",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "fontSize": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "color": {
+                      "type": "string"
+                    },
+                    "background": {
+                      "description": "Box color behind the text, or null for none.",
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "anchor": {
+                      "type": "string",
+                      "enum": [
+                        "top-left",
+                        "top-center",
+                        "top-right",
+                        "center-left",
+                        "center",
+                        "center-right",
+                        "bottom-left",
+                        "bottom-center",
+                        "bottom-right"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "text",
+                    "durationSec"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "add_color"
+                    },
+                    "id": {
+                      "description": "Optional clip id — supply one to reference this clip in a later verb of the SAME batch.",
+                      "type": "string"
+                    },
+                    "durationSec": {
+                      "type": "number",
+                      "exclusiveMinimum": 0
+                    },
+                    "color": {
+                      "description": "Card color (default black).",
+                      "type": "string"
+                    },
+                    "track": {
+                      "type": "string"
+                    },
+                    "startSec": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "durationSec"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "trim"
+                    },
+                    "clipId": {
+                      "type": "string"
+                    },
+                    "sourceInSec": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "sourceOutSec": {
+                      "type": "number",
+                      "exclusiveMinimum": 0
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "move"
+                    },
+                    "clipId": {
+                      "type": "string"
+                    },
+                    "startSec": {
+                      "description": "New timeline start.",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "toTrack": {
+                      "description": "Move the clip to this track.",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "split"
+                    },
+                    "clipId": {
+                      "type": "string"
+                    },
+                    "atSec": {
+                      "type": "number",
+                      "description": "Timeline time to cut at (must fall inside the clip)."
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId",
+                    "atSec"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "remove"
+                    },
+                    "clipId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "remove_silence"
+                    },
+                    "clipId": {
+                      "type": "string",
+                      "description": "Media clip to cut the pauses out of. It is split into back-to-back sub-clips that keep the speech, and later clips on its track move up."
+                    },
+                    "sensitivity": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1,
+                      "description": "How aggressively to cut, 0..1. Higher counts louder sound as silence and cuts shorter pauses. Default 0.5."
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "cut_words"
+                    },
+                    "clipId": {
+                      "type": "string",
+                      "description": "Media clip to cut the words out of."
+                    },
+                    "fromIndex": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991,
+                      "description": "First word to cut: its `index` from timeline_transcript."
+                    },
+                    "toIndex": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 9007199254740991,
+                      "description": "Last word to cut (inclusive). Later clips on the track move up."
+                    },
+                    "transcriptId": {
+                      "type": "string",
+                      "description": "The `transcriptId` from the timeline_transcript call the indices came from; the cut is refused if the clip was transcribed again since."
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId",
+                    "fromIndex",
+                    "toIndex",
+                    "transcriptId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "remove_retakes"
+                    },
+                    "clipId": {
+                      "type": "string",
+                      "description": "Media clip to cut repeated takes from: each phrase said twice in a row loses its earlier take (see `retakes` in timeline_transcript)."
+                    },
+                    "transcriptId": {
+                      "description": "Optional `transcriptId` the retakes were read from; refused if it changed.",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "clipId"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "caption_speech"
+                    },
+                    "clipId": {
+                      "description": "Media clip to caption. Default: every media clip whose source has a transcript, replacing the whole caption track.",
+                      "type": "string"
+                    },
+                    "transcriptId": {
+                      "description": "Optional `transcriptId` (with clipId) the words were read from; refused if it changed.",
+                      "type": "string"
+                    },
+                    "maxWords": {
+                      "description": "Most words per caption (default 7); 1 shows one word at a time. A pause or a sentence end also starts a new caption.",
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 12
+                    },
+                    "track": {
+                      "description": "Caption track id (default \"captions\"), kept above the video.",
+                      "type": "string"
+                    },
+                    "fontSize": {
+                      "type": "integer",
+                      "exclusiveMinimum": 0,
+                      "maximum": 9007199254740991
+                    },
+                    "color": {
+                      "description": "Text color (default white).",
+                      "type": "string"
+                    },
+                    "background": {
+                      "description": "Box color behind the text (default black@0.6), or null for none.",
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "anchor": {
+                      "description": "Where captions sit (default bottom-center).",
+                      "type": "string",
+                      "enum": [
+                        "top-left",
+                        "top-center",
+                        "top-right",
+                        "center-left",
+                        "center",
+                        "center-right",
+                        "bottom-left",
+                        "bottom-center",
+                        "bottom-right"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "verb"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "verb": {
+                      "type": "string",
+                      "const": "transition"
+                    },
+                    "afterClipId": {
+                      "type": "string",
+                      "description": "Add a transition after this clip, into the one that follows it."
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "fade",
+                        "fadeblack",
+                        "fadewhite",
+                        "dissolve",
+                        "wipeleft",
+                        "wiperight",
+                        "wipeup",
+                        "wipedown",
+                        "slideleft",
+                        "slideright",
+                        "circleopen",
+                        "circleclose"
+                      ]
+                    },
+                    "durationSec": {
+                      "type": "number",
+                      "exclusiveMinimum": 0,
+                      "maximum": 10
+                    },
+                    "track": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "verb",
+                    "afterClipId"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "verbs"
+        ],
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_transcript",
+      "title": "Transcribe a clip",
+      "description": "Transcribe a media clip's speech with the local whisper.cpp and return its words with timeline times. Optional feature: if whisper.cpp or a model isn't set up, the error says how. The first call per source file takes a while; later calls reuse the stored transcript. A word's `index` is stable for its source file.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "clipId": {
+            "type": "string",
+            "description": "Media clip to transcribe."
+          },
+          "language": {
+            "type": "string",
+            "pattern": "^(auto|[a-z]{2,3})$",
+            "description": "Spoken language code, e.g. 'en'; 'auto' (the default) detects it."
+          }
+        },
+        "required": [
+          "clipId"
+        ],
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_undo",
+      "title": "Undo",
+      "description": "Undo the most recent timeline edit.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_redo",
+      "title": "Redo",
+      "description": "Redo the most recently undone timeline edit.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "timeline_export",
+      "title": "Export the timeline",
+      "description": "Export the current timeline document to a file in the workspace and return its path. format mp4 (default) renders the video. fcpxml writes an FCPXML project for Final Cut Pro and DaVinci Resolve; xmeml writes Final Cut Pro 7 XML for Premiere Pro (Resolve reads it too), with text as .srt caption files beside it. Both reference the source media by absolute path, refuse what the editor file cannot hold with the fix to make, and return notes on what is carried only in part.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "format": {
+            "description": "Default mp4. fcpxml: Final Cut Pro and DaVinci Resolve. xmeml: Final Cut Pro 7 XML for Premiere Pro (Resolve reads it too); text goes to .srt caption files beside it.",
+            "type": "string",
+            "enum": [
+              "mp4",
+              "fcpxml",
+              "xmeml"
+            ]
+          },
+          "output": {
+            "description": "Output file inside the workspace (relative paths resolve against it).",
+            "type": "string"
+          }
+        },
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "doctor",
+      "title": "Check the setup",
+      "description": "Check that this computer has what the editor needs: Node, FFmpeg and its text and stabilization filters, a writable workspace and a caption font, plus the optional local whisper.cpp and model for transcription. Each problem comes with its fix, and howToSet says where the MAKEMYCLIP_* settings it names are changed. Run it when the user asks whether their setup works, or when a tool fails with a setup error.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    }
+  ]
+}

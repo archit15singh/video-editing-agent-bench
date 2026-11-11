@@ -1,0 +1,85 @@
+{
+  "file": "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/source.mp4",
+  "checks": {
+    "duration": false,
+    "correct_scenes": false,
+    "correct_boundaries": false,
+    "audible_sections": true
+  },
+  "passed": false,
+  "scenes": [
+    {
+      "scene": "intro",
+      "observed_rgb": [
+        254,
+        0,
+        0
+      ],
+      "expected_rgb": [
+        22,
+        78,
+        99
+      ],
+      "max_error": 232,
+      "passed": false,
+      "speech_rms": 0.1465100530321437
+    },
+    {
+      "scene": "feature",
+      "observed_rgb": [
+        23,
+        78,
+        100
+      ],
+      "expected_rgb": [
+        76,
+        29,
+        149
+      ],
+      "max_error": 53,
+      "passed": false,
+      "speech_rms": 0.1722363667087074
+    },
+    {
+      "scene": "close",
+      "observed_rgb": [
+        76,
+        29,
+        150
+      ],
+      "expected_rgb": [
+        20,
+        83,
+        45
+      ],
+      "max_error": 105,
+      "passed": false,
+      "speech_rms": 0.133677627916645
+    }
+  ],
+  "boundaries": [
+    {
+      "time": 4.666666666666667,
+      "after_rgb": [
+        23,
+        78,
+        100
+      ],
+      "passed": false
+    },
+    {
+      "time": 9.766666666666666,
+      "after_rgb": [
+        0,
+        0,
+        0
+      ],
+      "passed": false
+    }
+  ],
+  "limitations": [
+    "RMS proves signal presence, not speech intelligibility or sync.",
+    "Corner colours prove scene identity at sampled times, not every frame.",
+    "Caption/title readability requires visual inspection."
+  ]
+}

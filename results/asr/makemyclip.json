@@ -1,0 +1,65 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/singh/projects/video-editing-agent-bench/.tools/models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,260"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4260
+			},
+			"text": " Welcome to the demo, we turn raw recordings into clear stories."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,260",
+				"to": "00:00:09,940"
+			},
+			"offsets": {
+				"from": 4260,
+				"to": 9940
+			},
+			"text": " First, remove mistakes, then add titles and readable captions."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,940",
+				"to": "00:00:14,280"
+			},
+			"offsets": {
+				"from": 9940,
+				"to": 14280
+			},
+			"text": " Finally, verify the export, every edit should be easy to revise."
+		}
+	]
+}

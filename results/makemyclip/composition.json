@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "rev": 15,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "background": "black",
+  "tracks": [
+    {
+      "id": "picture",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "media",
+          "id": "clip_a5462fa1",
+          "startSec": 0,
+          "effects": [],
+          "mediaId": "m_f1c688e208f9",
+          "sourceInSec": 3.4,
+          "sourceOutSec": 8.066666666666666
+        },
+        {
+          "kind": "media",
+          "id": "clip_633e2d7c",
+          "startSec": 4.666666666666667,
+          "effects": [],
+          "mediaId": "m_f1c688e208f9",
+          "sourceInSec": 10.066666666666666,
+          "sourceOutSec": 15.166666666666666
+        },
+        {
+          "kind": "media",
+          "id": "clip_591b0bf4",
+          "startSec": 9.766666666666666,
+          "effects": [],
+          "mediaId": "m_f1c688e208f9",
+          "sourceInSec": 15.166666666666666,
+          "sourceOutSec": 20.53333333333333
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    },
+    {
+      "id": "captions",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "text",
+          "id": "clip_4557e610",
+          "startSec": 0,
+          "effects": [],
+          "text": "Welcome to the demo. We turn raw recordings into clear stories.",
+          "durationSec": 4.666666666666667,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_93490086",
+          "startSec": 4.666666666666667,
+          "effects": [],
+          "text": "First, remove mistakes. Then add titles and readable captions.",
+          "durationSec": 5.1,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_15f0d464",
+          "startSec": 9.766666666666666,
+          "effects": [],
+          "text": "Finally, verify the export. Every edit should be easy to revise.",
+          "durationSec": 5.366666666666666,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black",
+            "anchor": "bottom-center"
+          }
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    },
+    {
+      "id": "titles",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "text",
+          "id": "clip_86ce4f8e",
+          "startSec": 0,
+          "effects": [],
+          "text": "Verified, editable, ready",
+          "durationSec": 3,
+          "style": {
+            "fontSize": 40,
+            "color": "white",
+            "background": "black",
+            "anchor": "top-right"
+          }
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    }
+  ]
+}

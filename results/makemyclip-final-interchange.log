@@ -1,0 +1,11 @@
+{
+  "exported": "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-final.fcpxml",
+  "format": "fcpxml",
+  "files": [
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-final.fcpxml"
+  ],
+  "durationSec": 15.133333333333333,
+  "notes": [
+    "Text background boxes aren't carried: Basic Title has no box, so captions and titles show without theirs. Add one in the editor."
+  ]
+}

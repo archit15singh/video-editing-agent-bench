@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "id": "node",
+      "label": "Node.js",
+      "status": "ok",
+      "detail": "26.12.0"
+    },
+    {
+      "id": "ffmpeg",
+      "label": "FFmpeg",
+      "status": "ok",
+      "detail": "6.0 (bundled ffmpeg-static) /Users/singh/projects/video-editing-agent-bench/node_modules/ffmpeg-static/ffmpeg"
+    },
+    {
+      "id": "drawtext",
+      "label": "Text and captions",
+      "status": "ok",
+      "detail": "drawtext filter"
+    },
+    {
+      "id": "vidstab",
+      "label": "Stabilization",
+      "status": "ok",
+      "detail": "vidstab filters"
+    },
+    {
+      "id": "workspace",
+      "label": "Workspace",
+      "status": "ok",
+      "detail": "/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media (MAKEMYCLIP_WORKSPACE)"
+    },
+    {
+      "id": "font",
+      "label": "Caption font",
+      "status": "ok",
+      "detail": "/System/Library/Fonts/Supplemental/Arial.ttf"
+    },
+    {
+      "id": "whisper",
+      "label": "whisper.cpp (optional)",
+      "status": "ok",
+      "detail": "/Users/singh/projects/video-editing-agent-bench/.tools/whisper.cpp/build/bin/whisper-cli (MAKEMYCLIP_WHISPER_PATH)"
+    },
+    {
+      "id": "whisper-model",
+      "label": "Whisper model (optional)",
+      "status": "ok",
+      "detail": "/Users/singh/projects/video-editing-agent-bench/.tools/models/ggml-base.en.bin"
+    }
+  ],
+  "howToSet": "Set environment variables in your shell profile; for `clip mcp`, set them in the MCP client config for the server."
+}

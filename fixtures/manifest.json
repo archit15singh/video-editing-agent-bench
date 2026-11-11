@@ -1,0 +1,72 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "bad",
+      "source_start": 0,
+      "source_end": 3.4,
+      "duration": 3.4,
+      "frames": 102,
+      "keep": false,
+      "text": "This is the wrong take. Please discard it.",
+      "color": "red",
+      "path": "fixtures/generated/bad.mp4",
+      "speech_duration": 2.599002
+    },
+    {
+      "id": "intro",
+      "source_start": 3.4,
+      "source_end": 8.066666666666666,
+      "duration": 4.666666666666667,
+      "frames": 140,
+      "keep": true,
+      "text": "Welcome to the demo. We turn raw recordings into clear stories.",
+      "color": "0x164e63",
+      "path": "fixtures/generated/intro.mp4",
+      "speech_duration": 3.856463,
+      "edit_start": 0
+    },
+    {
+      "id": "pause",
+      "source_start": 8.066666666666666,
+      "source_end": 10.066666666666666,
+      "duration": 2,
+      "frames": 60,
+      "keep": false,
+      "path": "fixtures/generated/pause.mp4"
+    },
+    {
+      "id": "feature",
+      "source_start": 10.066666666666666,
+      "source_end": 15.166666666666666,
+      "duration": 5.1,
+      "frames": 153,
+      "keep": true,
+      "text": "First, remove mistakes. Then add titles and readable captions.",
+      "color": "0x4c1d95",
+      "path": "fixtures/generated/feature.mp4",
+      "speech_duration": 4.285533,
+      "edit_start": 4.666666666666667
+    },
+    {
+      "id": "close",
+      "source_start": 15.166666666666666,
+      "source_end": 20.53333333333333,
+      "duration": 5.366666666666666,
+      "frames": 161,
+      "keep": true,
+      "text": "Finally, verify the export. Every edit should be easy to revise.",
+      "color": "0x14532d",
+      "path": "fixtures/generated/close.mp4",
+      "speech_duration": 4.575782,
+      "edit_start": 9.766666666666666
+    }
+  ],
+  "source": "fixtures/generated/source.mp4",
+  "source_duration": 20.53333333333333,
+  "expected_duration": 15.133333333333333,
+  "title": "From raw to ready",
+  "revision_title": "Verified, editable, ready"
+}

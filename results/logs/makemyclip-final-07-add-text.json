@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-text",
+    "Finally, verify the export. Every edit should be easy to revise.",
+    "5.366666666666666",
+    "--start",
+    "9.766666666666666",
+    "--track",
+    "captions",
+    "--font",
+    "30",
+    "--anchor",
+    "bottom-center",
+    "--background",
+    "black"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"text\",\n  \"clipId\": \"clip_15f0d464\",\n  \"trackId\": \"captions\",\n  \"startSec\": 9.766666666666666\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.148,
+  "observed_at": "2026-11-11T19:58:07.295139+00:00"
+}

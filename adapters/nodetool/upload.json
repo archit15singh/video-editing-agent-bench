@@ -1,0 +1,10 @@
+[
+  {
+    "name": "upload_asset",
+    "arguments": {
+      "file_path": "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/source.mp4",
+      "name": "benchmark-source.mp4",
+      "content_type": "video/mp4"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Correct text placement in pixels",
+      "risk": "low",
+      "description": "",
+      "code": "import {get_timeline,edit_timeline,validate_timeline,preview_timeline_frame} from \"@nodetool-ai/sandbox-nodetool/timelines\";const id=\"83a5dfb0f663\";const state=await get_timeline({timeline_id:id});const ops=state.timeline.clips.filter(c=>c.mediaType===\"text\").map(c=>({op:\"set_clip_params\",target:c.id,transform:{position:{x:0,y:c.name===\"Title\"?-160:270}}}));await edit_timeline({timeline_id:id,ops});const preview=await preview_timeline_frame({timeline_id:id,times_ms:[1000,6500,12000],sheet:true,width:640});const validation=await validate_timeline({timeline_id:id});const finalState=await get_timeline({timeline_id:id});return {preview,validation,finalState};"
+    }
+  }
+]

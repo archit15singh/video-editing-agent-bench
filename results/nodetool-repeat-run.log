@@ -1,0 +1,10 @@
+{
+  "job_id": "1eb0f3749ddc",
+  "timeline_id": "4a96fefb977a",
+  "status": "failed",
+  "asset_id": null,
+  "uri": null,
+  "render_mode": null,
+  "duration_ms": null,
+  "job_error": "Node \"render\" failed: ProcessingContext model interface 'getTimelineSequence' is not configured"
+}

@@ -1,0 +1,85 @@
+{
+  "file": "/Users/singh/projects/video-editing-agent-bench/results/ffmpeg-control/media/ffmpeg-control.mp4",
+  "checks": {
+    "duration": true,
+    "correct_scenes": true,
+    "correct_boundaries": true,
+    "audible_sections": true
+  },
+  "passed": true,
+  "scenes": [
+    {
+      "scene": "intro",
+      "observed_rgb": [
+        23,
+        78,
+        100
+      ],
+      "expected_rgb": [
+        22,
+        78,
+        99
+      ],
+      "max_error": 1,
+      "passed": true,
+      "speech_rms": 0.16726766736196638
+    },
+    {
+      "scene": "feature",
+      "observed_rgb": [
+        76,
+        29,
+        150
+      ],
+      "expected_rgb": [
+        76,
+        29,
+        149
+      ],
+      "max_error": 1,
+      "passed": true,
+      "speech_rms": 0.14230158702487333
+    },
+    {
+      "scene": "close",
+      "observed_rgb": [
+        19,
+        82,
+        45
+      ],
+      "expected_rgb": [
+        20,
+        83,
+        45
+      ],
+      "max_error": 1,
+      "passed": true,
+      "speech_rms": 0.14978489006382292
+    }
+  ],
+  "boundaries": [
+    {
+      "time": 4.666666666666667,
+      "after_rgb": [
+        76,
+        29,
+        150
+      ],
+      "passed": true
+    },
+    {
+      "time": 9.766666666666666,
+      "after_rgb": [
+        19,
+        82,
+        45
+      ],
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "RMS proves signal presence, not speech intelligibility or sync.",
+    "Corner colours prove scene identity at sampled times, not every frame.",
+    "Caption/title readability requires visual inspection."
+  ]
+}

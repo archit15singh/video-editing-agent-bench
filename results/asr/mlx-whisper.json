@@ -1,0 +1,393 @@
+{
+  "text": " This is the wrong take, please discard it. Welcome to the demo. We turn row recordings into clear stories. First, remove mistakes, then add titles and readable captions. Finally, verify the export. Every edit should be easy to revise.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.3,
+      "text": " This is the wrong take, please discard it.",
+      "tokens": [
+        50363,
+        770,
+        318,
+        262,
+        2642,
+        1011,
+        11,
+        3387,
+        27537,
+        340,
+        13,
+        50535
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.81591796875
+        },
+        {
+          "word": " is",
+          "start": 0.16,
+          "end": 0.28,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " the",
+          "start": 0.28,
+          "end": 0.44,
+          "probability": 0.9765625
+        },
+        {
+          "word": " wrong",
+          "start": 0.44,
+          "end": 0.64,
+          "probability": 0.986328125
+        },
+        {
+          "word": " take,",
+          "start": 0.64,
+          "end": 0.96,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " please",
+          "start": 1.44,
+          "end": 1.64,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " discard",
+          "start": 1.64,
+          "end": 2.04,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " it.",
+          "start": 2.04,
+          "end": 2.3,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.4,
+      "end": 4.26,
+      "text": " Welcome to the demo.",
+      "tokens": [
+        50535,
+        19134,
+        284,
+        262,
+        13605,
+        13,
+        50601
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " Welcome",
+          "start": 3.4,
+          "end": 3.74,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " to",
+          "start": 3.74,
+          "end": 3.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 3.94,
+          "end": 4.06,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " demo.",
+          "start": 4.06,
+          "end": 4.26,
+          "probability": 0.982421875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.8,
+      "end": 6.86,
+      "text": " We turn row recordings into clear stories.",
+      "tokens": [
+        50601,
+        775,
+        1210,
+        5752,
+        18813,
+        656,
+        1598,
+        3923,
+        13,
+        50721
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " We",
+          "start": 4.8,
+          "end": 4.84,
+          "probability": 0.9921875
+        },
+        {
+          "word": " turn",
+          "start": 4.84,
+          "end": 5.08,
+          "probability": 0.990234375
+        },
+        {
+          "word": " row",
+          "start": 5.08,
+          "end": 5.28,
+          "probability": 0.41015625
+        },
+        {
+          "word": " recordings",
+          "start": 5.28,
+          "end": 5.64,
+          "probability": 0.9921875
+        },
+        {
+          "word": " into",
+          "start": 5.64,
+          "end": 6.06,
+          "probability": 0.998046875
+        },
+        {
+          "word": " clear",
+          "start": 6.06,
+          "end": 6.32,
+          "probability": 0.962890625
+        },
+        {
+          "word": " stories.",
+          "start": 6.32,
+          "end": 6.86,
+          "probability": 0.9931640625
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 10.2,
+      "end": 14.04,
+      "text": " First, remove mistakes, then add titles and readable captions.",
+      "tokens": [
+        50871,
+        3274,
+        11,
+        4781,
+        10135,
+        11,
+        788,
+        751,
+        8714,
+        290,
+        31744,
+        3144,
+        507,
+        13,
+        51129
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " First,",
+          "start": 10.2,
+          "end": 10.44,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " remove",
+          "start": 10.78,
+          "end": 11.08,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " mistakes,",
+          "start": 11.08,
+          "end": 11.52,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " then",
+          "start": 12.18,
+          "end": 12.32,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " add",
+          "start": 12.32,
+          "end": 12.5,
+          "probability": 0.9921875
+        },
+        {
+          "word": " titles",
+          "start": 12.5,
+          "end": 12.9,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " and",
+          "start": 12.9,
+          "end": 13.12,
+          "probability": 0.9921875
+        },
+        {
+          "word": " readable",
+          "start": 13.12,
+          "end": 13.3,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " captions.",
+          "start": 13.3,
+          "end": 14.04,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 15.099999999999998,
+      "end": 17.14,
+      "text": " Finally, verify the export.",
+      "tokens": [
+        51129,
+        9461,
+        11,
+        11767,
+        262,
+        10784,
+        13,
+        51251
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " Finally,",
+          "start": 15.099999999999998,
+          "end": 15.66,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " verify",
+          "start": 16.06,
+          "end": 16.3,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " the",
+          "start": 16.3,
+          "end": 16.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " export.",
+          "start": 16.8,
+          "end": 17.14,
+          "probability": 0.98388671875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 17.8,
+      "end": 19.24,
+      "text": " Every edit should be easy to revise.",
+      "tokens": [
+        51251,
+        3887,
+        4370,
+        815,
+        307,
+        2562,
+        284,
+        32548,
+        13,
+        51329
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27231531294565353,
+      "compression_ratio": 1.4096385542168675,
+      "no_speech_prob": 0.0031222396064549685,
+      "words": [
+        {
+          "word": " Every",
+          "start": 17.8,
+          "end": 17.88,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " edit",
+          "start": 17.88,
+          "end": 18.16,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " should",
+          "start": 18.16,
+          "end": 18.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " be",
+          "start": 18.4,
+          "end": 18.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " easy",
+          "start": 18.56,
+          "end": 18.84,
+          "probability": 0.998046875
+        },
+        {
+          "word": " to",
+          "start": 18.84,
+          "end": 19.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " revise.",
+          "start": 19.06,
+          "end": 19.24,
+          "probability": 0.99755859375
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "elapsed_seconds_including_first_model_load": 9.943943374993978
+}

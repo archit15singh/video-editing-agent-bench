@@ -58,6 +58,7 @@ def doctor():
     print(json.dumps(report, indent=2))
 
 def verify(paths):
+    all_passed = True
     for source in paths:
         path = Path(source).resolve()
         info = probe(path)
@@ -73,6 +74,8 @@ def verify(paths):
              duration=float(info['format']['duration']), streams=streams,
              passed=all(checks.values())))
         print(path.name, checks)
+        all_passed = all_passed and all(checks.values())
+    return all_passed
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
@@ -80,4 +83,6 @@ if __name__=='__main__':
     parser.add_argument('paths', nargs='*')
     args=parser.parse_args()
     if args.command=='doctor': doctor()
-    else: verify(args.paths)
+    else:
+        if not args.paths: parser.error('verify requires one or more video paths')
+        raise SystemExit(0 if verify(args.paths) else 1)

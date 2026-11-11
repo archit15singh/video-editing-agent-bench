@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "remove",
+    "clip_3a44052a"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"removed\": \"clip_3a44052a\"\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.143,
+  "observed_at": "2026-11-11T19:58:09.536482+00:00"
+}

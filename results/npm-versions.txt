@@ -1,0 +1,10 @@
+video-editing-agent-bench@0.1.0 /Users/singh/projects/video-editing-agent-bench
+├── @ffprobe-installer/ffprobe@2.1.2
+├── @makemyclip/editor@0.4.1
+├── @modelcontextprotocol/sdk@1.28.0
+├── @remotion/cli@4.0.543
+├── @remotion/renderer@4.0.543
+├── react-dom@19.2.0
+├── react@19.2.0
+└── remotion@4.0.543
+

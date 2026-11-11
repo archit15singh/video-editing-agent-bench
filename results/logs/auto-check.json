@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "check",
+    "--sheet",
+    "/Users/singh/projects/video-editing-agent-bench/results/makemyclip-auto/media/cuts.jpg"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"cuts\": [\n    {\n      \"trackId\": \"v0\",\n      \"atSec\": 3.7092899999999998,\n      \"outClipId\": \"clip_5c026187\",\n      \"inClipId\": \"clip_e6084b85\",\n      \"outPeakDb\": -68.7,\n      \"inPeakDb\": -28.2,\n      \"flagged\": true,\n      \"reason\": \"The incoming clip starts in sound: it may start mid-word.\"\n    },\n    {\n      \"trackId\": \"v0\",\n      \"atSec\": 7.900829999999999,\n      \"outClipId\": \"clip_e6084b85\",\n      \"inClipId\": \"clip_4acc7c8c\",\n      \"outPeakDb\": -73.4,\n      \"inPeakDb\": -6.8,\n      \"flagged\": true,\n      \"reason\": \"The incoming clip starts in sound: it may start mid-word.\"\n    }\n  ],\n  \"flagged\": 2,\n  \"sheet\": {\n    \"path\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip-auto/media/cuts.jpg\",\n    \"cuts\": 2,\n    \"truncated\": false\n  },\n  \"sheetError\": null\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.238,
+  "observed_at": "2026-11-11T20:00:54.148118+00:00"
+}

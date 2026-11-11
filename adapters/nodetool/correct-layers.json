@@ -1,0 +1,11 @@
+[
+  {
+    "name": "execute_code",
+    "arguments": {
+      "title": "Correct layers and verify timeline",
+      "risk": "low",
+      "description": "",
+      "code": "import {get_timeline,edit_timeline,validate_timeline,preview_timeline_frame,render_timeline} from \"@nodetool-ai/sandbox-nodetool/timelines\";\nconst id=\"83a5dfb0f663\";await get_timeline({timeline_id:id});await edit_timeline({timeline_id:id,ops:[{op:\"add_track\",type:\"subtitle\",name:\"Captions\"}]});const state=await get_timeline({timeline_id:id});const track=state.timeline.tracks.find(t=>t.name===\"Captions\");const captions=state.timeline.clips.filter(c=>c.name.startsWith(\"Caption \"));await edit_timeline({timeline_id:id,ops:[...captions.map(c=>({op:\"move_clip\",target:c.id,trackId:track.id})),{op:\"move_track\",target:track.id,toIndex:1}]});const validation=await validate_timeline({timeline_id:id});const preview=await preview_timeline_frame({timeline_id:id,times_ms:[1000,6500,12000],sheet:true,width:640});const finalState=await get_timeline({timeline_id:id});let render;try{render=await render_timeline({timeline_id:id,wait:true,timeout_ms:120000});}catch(e){render={error:String(e)}}return {finalState,validation,preview,render};"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+{"name":"bench-nodetool","private":true,"type":"module","dependencies":{"@nodetool-ai/cli-mcp":"0.8.10","@nodetool-ai/cli":"0.8.10"},"allowScripts":{"better-sqlite3@12.11.1":true,"keytar@7.9.0":true,"msgpackr-extract@3.0.7":true,"esbuild@0.28.2":true}}

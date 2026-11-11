@@ -1,0 +1,84 @@
+[
+  {
+    "action": {
+      "name": "timeline_show",
+      "arguments": {}
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"rev\": 14,\n  \"durationSec\": 15.133333333333333,\n  \"canvas\": {\n    \"width\": 1280,\n    \"height\": 720,\n    \"fps\": 30\n  },\n  \"tracks\": [\n    {\n      \"id\": \"picture\",\n      \"kind\": \"video\",\n      \"clips\": [\n        {\n          \"id\": \"clip_a5462fa1\",\n          \"kind\": \"media\",\n          \"startSec\": 0,\n          \"endSec\": 4.666666666666666\n        },\n        {\n          \"id\": \"clip_633e2d7c\",\n          \"kind\": \"media\",\n          \"startSec\": 4.666666666666667,\n          \"endSec\": 9.766666666666666\n        },\n        {\n          \"id\": \"clip_591b0bf4\",\n          \"kind\": \"media\",\n          \"startSec\": 9.766666666666666,\n          \"endSec\": 15.133333333333331\n        }\n      ]\n    },\n    {\n      \"id\": \"captions\",\n      \"kind\": \"video\",\n      \"clips\": [\n        {\n          \"id\": \"clip_4557e610\",\n          \"kind\": \"text\",\n          \"startSec\": 0,\n          \"endSec\": 4.666666666666667\n        },\n        {\n          \"id\": \"clip_93490086\",\n          \"kind\": \"text\",\n          \"startSec\": 4.666666666666667,\n          \"endSec\": 9.766666666666666\n        },\n        {\n          \"id\": \"clip_15f0d464\",\n          \"kind\": \"text\",\n          \"startSec\": 9.766666666666666,\n          \"endSec\": 15.133333333333333\n        }\n      ]\n    },\n    {\n      \"id\": \"titles\",\n      \"kind\": \"video\",\n      \"clips\": [\n        {\n          \"id\": \"clip_1a5cb883\",\n          \"kind\": \"text\",\n          \"startSec\": 0,\n          \"endSec\": 3\n        }\n      ]\n    }\n  ],\n  \"exportable\": true,\n  \"blockers\": []\n}"
+        }
+      ]
+    },
+    "seconds": 0.0031722500000000197
+  },
+  {
+    "action": {
+      "name": "timeline_edit",
+      "arguments": {
+        "verbs": [
+          {
+            "verb": "remove",
+            "clipId": "clip_1a5cb883"
+          },
+          {
+            "verb": "add_text",
+            "text": "Verified, editable, ready",
+            "durationSec": 3,
+            "startSec": 0,
+            "track": "titles",
+            "fontSize": 40,
+            "anchor": "top-right",
+            "background": "black"
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"applied\": 2,\n  \"document\": {\n    \"rev\": 15,\n    \"durationSec\": 15.133333333333333,\n    \"canvas\": {\n      \"width\": 1280,\n      \"height\": 720,\n      \"fps\": 30\n    },\n    \"tracks\": [\n      {\n        \"id\": \"picture\",\n        \"kind\": \"video\",\n        \"clips\": [\n          {\n            \"id\": \"clip_a5462fa1\",\n            \"kind\": \"media\",\n            \"startSec\": 0,\n            \"endSec\": 4.666666666666666\n          },\n          {\n            \"id\": \"clip_633e2d7c\",\n            \"kind\": \"media\",\n            \"startSec\": 4.666666666666667,\n            \"endSec\": 9.766666666666666\n          },\n          {\n            \"id\": \"clip_591b0bf4\",\n            \"kind\": \"media\",\n            \"startSec\": 9.766666666666666,\n            \"endSec\": 15.133333333333331\n          }\n        ]\n      },\n      {\n        \"id\": \"captions\",\n        \"kind\": \"video\",\n        \"clips\": [\n          {\n            \"id\": \"clip_4557e610\",\n            \"kind\": \"text\",\n            \"startSec\": 0,\n            \"endSec\": 4.666666666666667\n          },\n          {\n            \"id\": \"clip_93490086\",\n            \"kind\": \"text\",\n            \"startSec\": 4.666666666666667,\n            \"endSec\": 9.766666666666666\n          },\n          {\n            \"id\": \"clip_15f0d464\",\n            \"kind\": \"text\",\n            \"startSec\": 9.766666666666666,\n            \"endSec\": 15.133333333333333\n          }\n        ]\n      },\n      {\n        \"id\": \"titles\",\n        \"kind\": \"video\",\n        \"clips\": [\n          {\n            \"id\": \"clip_86ce4f8e\",\n            \"kind\": \"text\",\n            \"startSec\": 0,\n            \"endSec\": 3\n          }\n        ]\n      }\n    ],\n    \"exportable\": true,\n    \"blockers\": []\n  }\n}"
+        }
+      ]
+    },
+    "seconds": 0.018537290999999984
+  },
+  {
+    "action": {
+      "name": "timeline_export",
+      "arguments": {
+        "output": "makemyclip-polished.mp4"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-polished.mp4\",\n  \"durationSec\": 15.133333333333331\n}"
+        }
+      ]
+    },
+    "seconds": 1.105647291
+  },
+  {
+    "action": {
+      "name": "timeline_export",
+      "arguments": {
+        "output": "makemyclip-final.fcpxml",
+        "format": "fcpxml"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-final.fcpxml\",\n  \"format\": \"fcpxml\",\n  \"files\": [\n    \"/Users/singh/projects/video-editing-agent-bench/results/makemyclip/media/makemyclip-final.fcpxml\"\n  ],\n  \"durationSec\": 15.133333333333333,\n  \"notes\": [\n    \"Text background boxes aren't carried: Basic Title has no box, so captions and titles show without theirs. Add one in the editor.\"\n  ]\n}"
+        }
+      ]
+    },
+    "seconds": 0.00935845900000004
+  }
+]

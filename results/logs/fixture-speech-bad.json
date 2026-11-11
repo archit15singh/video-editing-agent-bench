@@ -1,0 +1,17 @@
+{
+  "command": [
+    "say",
+    "-v",
+    "Samantha",
+    "-r",
+    "175",
+    "-o",
+    "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/bad.aiff",
+    "This is the wrong take. Please discard it."
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 0.844,
+  "observed_at": "2026-11-11T19:57:09.117638+00:00"
+}

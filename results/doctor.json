@@ -1,9 +1,9 @@
 {
   "node": "/opt/homebrew/bin/node",
   "npm": "/opt/homebrew/bin/npm",
-  "ffmpeg": null,
-  "ffprobe": null,
+  "ffmpeg": "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+  "ffprobe": "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffprobe",
   "say": "/usr/bin/say",
   "platform": "Darwin arm64",
-  "ready": false
+  "ready": true
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "remotion",
+    "expected": "Welcome to the demo. We turn raw recordings into clear stories. First, remove mistakes. Then add titles and readable captions. Finally, verify the export. Every edit should be easy to revise.",
+    "recognized": "Welcome to the demo, we turn raw recordings into clear stories. First, remove mistakes, then add titles and readable captions. Finally, verify the export, every edit should be easy to revise.",
+    "word_error_rate": 0.0,
+    "bad_take_present": false,
+    "content_coverage_pass": true
+  },
+  {
+    "name": "makemyclip",
+    "expected": "Welcome to the demo. We turn raw recordings into clear stories. First, remove mistakes. Then add titles and readable captions. Finally, verify the export. Every edit should be easy to revise.",
+    "recognized": "Welcome to the demo, we turn raw recordings into clear stories. First, remove mistakes, then add titles and readable captions. Finally, verify the export, every edit should be easy to revise.",
+    "word_error_rate": 0.0,
+    "bad_take_present": false,
+    "content_coverage_pass": true
+  },
+  {
+    "name": "makemyclip-auto",
+    "expected": "Welcome to the demo. We turn raw recordings into clear stories. First, remove mistakes. Then add titles and readable captions. Finally, verify the export. Every edit should be easy to revise.",
+    "recognized": "Welcome to the demo. We turn raw recordings into clear stories. First, remove mistakes. Then add titles and readable captions. Finally, verify the export. Every edit should be easy to revise.",
+    "word_error_rate": 0.0,
+    "bad_take_present": false,
+    "content_coverage_pass": true
+  }
+]

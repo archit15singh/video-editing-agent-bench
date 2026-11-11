@@ -1,0 +1,17 @@
+{
+  "command": [
+    "say",
+    "-v",
+    "Samantha",
+    "-r",
+    "175",
+    "-o",
+    "/Users/singh/projects/video-editing-agent-bench/fixtures/generated/close.aiff",
+    "Finally, verify the export. Every edit should be easy to revise."
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 0.575,
+  "observed_at": "2026-11-11T19:57:11.469916+00:00"
+}

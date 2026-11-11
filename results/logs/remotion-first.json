@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/remotion",
+    "render",
+    "adapters/remotion/index.jsx",
+    "Benchmark",
+    "/Users/singh/projects/video-editing-agent-bench/results/remotion/media/remotion-first.mp4",
+    "--public-dir",
+    "fixtures/generated",
+    "--props",
+    "{\"title\": \"From raw to ready\"}",
+    "--codec",
+    "h264",
+    "--concurrency",
+    "2",
+    "--log",
+    "error"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 17.264,
+  "observed_at": "2026-11-11T19:57:40.574868+00:00"
+}

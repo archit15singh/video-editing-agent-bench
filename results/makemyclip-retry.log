@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/run_makemyclip.py", line 26, in <module>
+    clip('add-text',s['text'],str(s['duration']),'--start',str(s['edit_start']),'--track','captions','--font','30','--anchor','bottom','--background','black')
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/run_makemyclip.py", line 20, in clip
+    return json.loads(run([cli,'timeline',*args],f'makemyclip-retry-{count:02d}-{args[0]}',env=env))
+                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/singh/projects/video-editing-agent-bench/scripts/bench.py", line 34, in run
+    raise RuntimeError(f'{name} failed: see results/logs/{name}.json')
+RuntimeError: makemyclip-retry-03-add-text failed: see results/logs/makemyclip-retry-03-add-text.json

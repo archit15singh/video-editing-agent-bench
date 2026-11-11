@@ -1,0 +1,21 @@
+{
+  "/Users/singh/projects/video-editing-agent-bench/.cache/nodetool-data/nodetool/packs": {
+    "root": "/Users/singh/projects/video-editing-agent-bench/.cache/nodetool-data/nodetool/packs",
+    "coreVersion": "0.8.10",
+    "packs": [
+      "audio",
+      "video"
+    ],
+    "runtimeLibraries": [
+      "imaging",
+      "media-codecs",
+      "webgpu"
+    ],
+    "requestedPacks": [
+      "video"
+    ],
+    "managedPacks": [
+      "audio"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-text",
+    "From raw to ready",
+    "3",
+    "--start",
+    "0",
+    "--track",
+    "titles",
+    "--font",
+    "58",
+    "--anchor",
+    "top-center",
+    "--background",
+    "black"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"text\",\n  \"clipId\": \"clip_3a44052a\",\n  \"trackId\": \"titles\",\n  \"startSec\": 0\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.15,
+  "observed_at": "2026-11-11T19:58:07.445171+00:00"
+}

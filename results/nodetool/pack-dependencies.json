@@ -1,0 +1,27 @@
+{
+  "name": "nodetool-packs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Node packs installed by the NodeTool CLI. Change them with nodetool packs add and nodetool packs remove.",
+  "nodetool": {
+    "coreVersion": "0.8.10",
+    "packs": [
+      "video"
+    ],
+    "runtimeLibraries": [
+      "imaging",
+      "media-codecs"
+    ]
+  },
+  "dependencies": {
+    "@hyzyla/pdfium": "2.1.13",
+    "@mediabunny/server": "1.54.0",
+    "@napi-rs/canvas": "0.1.100",
+    "@nodetool-ai/audio-nodes": "0.8.10",
+    "@nodetool-ai/video-nodes": "0.8.10",
+    "mediabunny": "1.54.0",
+    "node-av": "6.1.1",
+    "sharp": "0.35.5",
+    "webgpu": "0.4.0"
+  }
+}

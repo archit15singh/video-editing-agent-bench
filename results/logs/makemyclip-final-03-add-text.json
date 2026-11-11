@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-text",
+    "Welcome to the demo. We turn raw recordings into clear stories.",
+    "4.666666666666667",
+    "--start",
+    "0",
+    "--track",
+    "captions",
+    "--font",
+    "30",
+    "--anchor",
+    "bottom-center",
+    "--background",
+    "black"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"text\",\n  \"clipId\": \"clip_4557e610\",\n  \"trackId\": \"captions\",\n  \"startSec\": 0\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.142,
+  "observed_at": "2026-11-11T19:58:06.607005+00:00"
+}
