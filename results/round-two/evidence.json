@@ -1,0 +1,152 @@
+{
+  "input": {
+    "duration_seconds": 46.921354,
+    "provenance": "synthetic",
+    "source": {
+      "path": "results/round-two/media/source.mp4",
+      "sha256": "760be16d95829d0c4d87e6bcbf86105841eaa10252c6cd37638409804fbbc3ab"
+    },
+    "screenshots": [
+      {
+        "path": "results/round-two/media/first-screen-0.png",
+        "sha256": "471d55c5785ed908aa1c590df07cc3129ca4f364a197ccf9b5b86958126a3887"
+      },
+      {
+        "path": "results/round-two/media/first-screen-1.png",
+        "sha256": "380cc1e0a48e4fdca6152f98e249aae3bc8b2939b609aceb668933980b7279d2"
+      },
+      {
+        "path": "results/round-two/media/first-screen-2.png",
+        "sha256": "1d3e412ad060e2e4ea7809a28fe72ccc174fb4f2de85f637d78097fc8405b1ae"
+      }
+    ]
+  },
+  "cleanup": {
+    "transcript": {
+      "path": "results/round-two/raw-transcript.json",
+      "sha256": "1bfcec15a8f428f08d3a05c7e354e9b55ddf52c177186dcfe67eef39b2e4e524"
+    },
+    "decisions": {
+      "path": "results/round-two/cleanup-state.json",
+      "sha256": "8094f76e2f8dae4717f2bf0baaff9a64fc9384bac23c987e944a53c0f82784ab"
+    },
+    "project": {
+      "path": "results/round-two/cleanup-project.json",
+      "sha256": "7c72d2ceb9b8bf915e0743a93a28650d228054c0dc00210405319757a953b464"
+    },
+    "output": {
+      "path": "results/round-two/media/clean.mp4",
+      "sha256": "9b40a5218ac7185d76bef38a950a98ee384dd1b4c30a6447a707b7a4e8806e32"
+    },
+    "verification": {
+      "path": "results/round-two/cleanup-speech-verification.json",
+      "sha256": "a30a19e1e94eb1cb80d076b23774d14a719fb383c488a43ad25cb6a344d6549f"
+    }
+  },
+  "shared": {
+    "captions": {
+      "path": "fixtures/round-two/captions.json",
+      "sha256": "497562b14bc9ecd116c4fc130727e52f80b1ce8b979eb066eeec76829fde7985"
+    },
+    "music": {
+      "path": "results/round-two/media/music.wav",
+      "sha256": "822aa951cfd2ff0a7dc8ec1ada9eb2da2669d1d541729c7e1535587d09478d34"
+    },
+    "sound_effects": {
+      "path": "results/round-two/media/effect.wav",
+      "sha256": "9ab5d5e6f9fd18bd543577ce821c02caf39b492a10655476175fcd3c5358a47e"
+    }
+  },
+  "engines": {
+    "remotion": {
+      "status": "verified",
+      "source": {
+        "path": "adapters/round-two/remotion.jsx",
+        "sha256": "c825ebfd0f6b8cec1cd46702388d53317a9063b13e1708359f398874a7353431"
+      },
+      "storyboard": {
+        "path": "docs/round-two/STORYBOARD.md",
+        "sha256": "9cef588e05c0e5f87f0b650110fb699d67f6edcb30c0f0090f6068a014d6a38c"
+      },
+      "first_export": {
+        "path": "results/round-two/media/remotion-first.mp4",
+        "sha256": "144bd2cfc9d3dddf6f174764570a1bdc4ead9e1d1ac32fc13945b2e68bccbac6"
+      },
+      "revised_export": {
+        "path": "results/round-two/media/remotion-revised.mp4",
+        "sha256": "6ff15a2c7db161255fd0b0b05e7750391a1138bedc167534097b676856f9bf25"
+      },
+      "verification": {
+        "path": "results/round-two/verification.json",
+        "sha256": "5b3ba0ab7753fc63e124f0b28814aab70de0d2d3ac7a8eb838467673d8644983"
+      },
+      "revision_comparison": {
+        "path": "results/round-two/verification.json",
+        "sha256": "5b3ba0ab7753fc63e124f0b28814aab70de0d2d3ac7a8eb838467673d8644983"
+      },
+      "review": {
+        "path": "docs/round-two/REVIEW.md",
+        "sha256": "bd995c8fb2e427e9549b78372facb95a7e9fd131ee700ffb1bf54619777a338b"
+      },
+      "commands": {
+        "path": "results/logs/r2-remotion-revised.json",
+        "sha256": "418e14a8e823b7015aa88e5d450f1ad0b9dfb2900e9e606208622d83f06cb5e5"
+      }
+    },
+    "hyperframes": {
+      "status": "verified",
+      "source": {
+        "path": "adapters/round-two/hyperframes-revised/index.html",
+        "sha256": "2a542736e8ad72ec24d26c18d5e8e5ad104971e39258c6a7494c9cf1af79bbf0"
+      },
+      "storyboard": {
+        "path": "docs/round-two/STORYBOARD.md",
+        "sha256": "9cef588e05c0e5f87f0b650110fb699d67f6edcb30c0f0090f6068a014d6a38c"
+      },
+      "first_export": {
+        "path": "results/round-two/media/hyperframes-first.mp4",
+        "sha256": "dd575e25022b9ea9306fdef9c097ccdde002a853a1dcc5cf43419c7113101580"
+      },
+      "revised_export": {
+        "path": "results/round-two/media/hyperframes-revised.mp4",
+        "sha256": "ee55cbfc075735ec0ff0900806ab8fad58b3d0d99e38516b22824a30947cc248"
+      },
+      "verification": {
+        "path": "results/round-two/verification.json",
+        "sha256": "5b3ba0ab7753fc63e124f0b28814aab70de0d2d3ac7a8eb838467673d8644983"
+      },
+      "revision_comparison": {
+        "path": "results/round-two/verification.json",
+        "sha256": "5b3ba0ab7753fc63e124f0b28814aab70de0d2d3ac7a8eb838467673d8644983"
+      },
+      "review": {
+        "path": "docs/round-two/REVIEW.md",
+        "sha256": "bd995c8fb2e427e9549b78372facb95a7e9fd131ee700ffb1bf54619777a338b"
+      },
+      "commands": {
+        "path": "results/logs/r2-hyperframes-revised.json",
+        "sha256": "9474ac3e5ecc10a239567d8abf3549bf22d95ceb37db482ed102342baa342fa2"
+      }
+    }
+  },
+  "comparison": {
+    "quality": "Comparable modest design; operator qualitative review",
+    "defects": "See REVIEW.md",
+    "intervention": "See INTERVENTIONS.json",
+    "time": {
+      "remotion": {
+        "first": 31.473,
+        "revised": 31.909
+      },
+      "hyperframes": {
+        "first": 25.583,
+        "revised": 25.359
+      }
+    },
+    "cost": "0 incremental paid API spend; subscription/labor unmetered"
+  },
+  "report": {
+    "path": "docs/round-two/RESULTS.md",
+    "sha256": "e526e422218c0f0007dfa18c090453ddefee4689fbc7a24982d2af97e71c9d66"
+  }
+}

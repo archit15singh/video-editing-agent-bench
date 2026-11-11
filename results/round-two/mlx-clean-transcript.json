@@ -1,0 +1,876 @@
+{
+  "text": " useful video starts with a clear story. Frame lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut, remove the mistakes and long pauses, then check the words that remain, give each visual one job, highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise. Keep the narration clear, the captions readable, and the graphics consistent, when your brand changes, update the design without rebuilding the story, that is the workflow we are testing today.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.58,
+      "text": " useful video starts with a clear story. Frame lab brings your recordings, notes, and screenshots",
+      "tokens": [
+        50363,
+        4465,
+        2008,
+        4940,
+        351,
+        257,
+        1598,
+        1621,
+        13,
+        25184,
+        2248,
+        6774,
+        534,
+        18813,
+        11,
+        4710,
+        11,
+        290,
+        23322,
+        50665
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16121245297518644,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 0.10323014855384827,
+      "words": [
+        {
+          "word": " useful",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.053802490234375
+        },
+        {
+          "word": " video",
+          "start": 0.32,
+          "end": 0.76,
+          "probability": 0.9296875
+        },
+        {
+          "word": " starts",
+          "start": 0.76,
+          "end": 1.08,
+          "probability": 0.98046875
+        },
+        {
+          "word": " with",
+          "start": 1.08,
+          "end": 1.38,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " a",
+          "start": 1.38,
+          "end": 1.52,
+          "probability": 0.962890625
+        },
+        {
+          "word": " clear",
+          "start": 1.52,
+          "end": 1.72,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " story.",
+          "start": 1.72,
+          "end": 2.16,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Frame",
+          "start": 2.52,
+          "end": 2.82,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " lab",
+          "start": 2.82,
+          "end": 2.98,
+          "probability": 0.51123046875
+        },
+        {
+          "word": " brings",
+          "start": 2.98,
+          "end": 3.28,
+          "probability": 0.994140625
+        },
+        {
+          "word": " your",
+          "start": 3.28,
+          "end": 3.52,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " recordings,",
+          "start": 3.52,
+          "end": 4.02,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " notes,",
+          "start": 4.46,
+          "end": 4.76,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " and",
+          "start": 5.1,
+          "end": 5.32,
+          "probability": 0.998046875
+        },
+        {
+          "word": " screenshots",
+          "start": 5.32,
+          "end": 5.58,
+          "probability": 0.97216796875
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.58,
+      "end": 11.88,
+      "text": " into one place. Start by organizing the material you actually need, so every scene has a purpose.",
+      "tokens": [
+        50665,
+        656,
+        530,
+        1295,
+        13,
+        7253,
+        416,
+        16924,
+        262,
+        2587,
+        345,
+        1682,
+        761,
+        11,
+        523,
+        790,
+        3715,
+        468,
+        257,
+        4007,
+        13,
+        50987
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16121245297518644,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 0.10323014855384827,
+      "words": [
+        {
+          "word": " into",
+          "start": 5.58,
+          "end": 6.2,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " one",
+          "start": 6.2,
+          "end": 6.46,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " place.",
+          "start": 6.46,
+          "end": 6.8,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Start",
+          "start": 7.26,
+          "end": 7.52,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " by",
+          "start": 7.52,
+          "end": 7.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " organizing",
+          "start": 7.78,
+          "end": 8.16,
+          "probability": 0.87890625
+        },
+        {
+          "word": " the",
+          "start": 8.16,
+          "end": 8.64,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " material",
+          "start": 8.64,
+          "end": 9.0,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " you",
+          "start": 9.0,
+          "end": 9.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": " actually",
+          "start": 9.36,
+          "end": 9.74,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " need,",
+          "start": 9.74,
+          "end": 10.16,
+          "probability": 1.0
+        },
+        {
+          "word": " so",
+          "start": 10.44,
+          "end": 10.72,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " every",
+          "start": 10.72,
+          "end": 10.96,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " scene",
+          "start": 10.96,
+          "end": 11.24,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " has",
+          "start": 11.24,
+          "end": 11.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 11.44,
+          "end": 11.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " purpose.",
+          "start": 11.58,
+          "end": 11.88,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 12.32,
+      "end": 17.58,
+      "text": " Next, review the cut, remove the mistakes and long pauses, then check the words that remain,",
+      "tokens": [
+        50987,
+        7406,
+        11,
+        2423,
+        262,
+        2005,
+        11,
+        4781,
+        262,
+        10135,
+        290,
+        890,
+        37622,
+        11,
+        788,
+        2198,
+        262,
+        2456,
+        326,
+        3520,
+        11,
+        51279
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16121245297518644,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 0.10323014855384827,
+      "words": [
+        {
+          "word": " Next,",
+          "start": 12.32,
+          "end": 12.48,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " review",
+          "start": 13.0,
+          "end": 13.26,
+          "probability": 0.9052734375
+        },
+        {
+          "word": " the",
+          "start": 13.26,
+          "end": 13.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " cut,",
+          "start": 13.54,
+          "end": 13.76,
+          "probability": 0.9296875
+        },
+        {
+          "word": " remove",
+          "start": 14.18,
+          "end": 14.36,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " the",
+          "start": 14.36,
+          "end": 14.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " mistakes",
+          "start": 14.66,
+          "end": 14.94,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " and",
+          "start": 14.94,
+          "end": 15.28,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " long",
+          "start": 15.28,
+          "end": 15.42,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " pauses,",
+          "start": 15.42,
+          "end": 15.86,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " then",
+          "start": 16.24,
+          "end": 16.46,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " check",
+          "start": 16.46,
+          "end": 16.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 16.66,
+          "end": 16.9,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " words",
+          "start": 16.9,
+          "end": 17.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " that",
+          "start": 17.1,
+          "end": 17.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " remain,",
+          "start": 17.36,
+          "end": 17.58,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 18.08,
+      "end": 23.74,
+      "text": " give each visual one job, highlight a decision, explain a change, or show the product in action.",
+      "tokens": [
+        51279,
+        1577,
+        1123,
+        5874,
+        530,
+        1693,
+        11,
+        7238,
+        257,
+        2551,
+        11,
+        4727,
+        257,
+        1487,
+        11,
+        393,
+        905,
+        262,
+        1720,
+        287,
+        2223,
+        13,
+        51581
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16121245297518644,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 0.10323014855384827,
+      "words": [
+        {
+          "word": " give",
+          "start": 18.08,
+          "end": 18.3,
+          "probability": 0.93017578125
+        },
+        {
+          "word": " each",
+          "start": 18.3,
+          "end": 18.5,
+          "probability": 1.0
+        },
+        {
+          "word": " visual",
+          "start": 18.5,
+          "end": 18.76,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 18.76,
+          "end": 19.14,
+          "probability": 0.99609375
+        },
+        {
+          "word": " job,",
+          "start": 19.14,
+          "end": 19.46,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " highlight",
+          "start": 19.76,
+          "end": 20.1,
+          "probability": 0.990234375
+        },
+        {
+          "word": " a",
+          "start": 20.1,
+          "end": 20.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " decision,",
+          "start": 20.38,
+          "end": 20.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " explain",
+          "start": 21.12,
+          "end": 21.5,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " a",
+          "start": 21.5,
+          "end": 21.78,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " change,",
+          "start": 21.78,
+          "end": 22.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " or",
+          "start": 22.44,
+          "end": 22.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " show",
+          "start": 22.6,
+          "end": 22.78,
+          "probability": 0.998046875
+        },
+        {
+          "word": " the",
+          "start": 22.78,
+          "end": 22.98,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " product",
+          "start": 22.98,
+          "end": 23.32,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " in",
+          "start": 23.32,
+          "end": 23.54,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " action.",
+          "start": 23.54,
+          "end": 23.74,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 24.2,
+      "end": 29.5,
+      "text": " Finally, deliver a video that is easy to revise. Keep the narration clear, the captions",
+      "tokens": [
+        51581,
+        9461,
+        11,
+        5203,
+        257,
+        2008,
+        326,
+        318,
+        2562,
+        284,
+        32548,
+        13,
+        9175,
+        262,
+        45127,
+        1598,
+        11,
+        262,
+        3144,
+        507,
+        51839
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16121245297518644,
+      "compression_ratio": 1.6219931271477663,
+      "no_speech_prob": 0.10323014855384827,
+      "words": [
+        {
+          "word": " Finally,",
+          "start": 24.2,
+          "end": 24.54,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " deliver",
+          "start": 24.8,
+          "end": 25.2,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " a",
+          "start": 25.2,
+          "end": 25.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " video",
+          "start": 25.44,
+          "end": 25.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " that",
+          "start": 25.68,
+          "end": 25.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " is",
+          "start": 25.96,
+          "end": 26.12,
+          "probability": 0.998046875
+        },
+        {
+          "word": " easy",
+          "start": 26.12,
+          "end": 26.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " to",
+          "start": 26.26,
+          "end": 26.58,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " revise.",
+          "start": 26.58,
+          "end": 26.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " Keep",
+          "start": 27.44,
+          "end": 27.54,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " the",
+          "start": 27.54,
+          "end": 27.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " narration",
+          "start": 27.76,
+          "end": 28.02,
+          "probability": 0.9921875
+        },
+        {
+          "word": " clear,",
+          "start": 28.02,
+          "end": 28.54,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 28.9,
+          "end": 29.04,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " captions",
+          "start": 29.04,
+          "end": 29.5,
+          "probability": 0.9296875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2950,
+      "start": 29.5,
+      "end": 34.56,
+      "text": " readable, and the graphics consistent, when your brand changes, update the design without",
+      "tokens": [
+        50363,
+        31744,
+        11,
+        290,
+        262,
+        9382,
+        6414,
+        11,
+        618,
+        534,
+        4508,
+        2458,
+        11,
+        4296,
+        262,
+        1486,
+        1231,
+        50625
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22713572838727167,
+      "compression_ratio": 1.3391304347826087,
+      "no_speech_prob": 0.36592021584510803,
+      "words": [
+        {
+          "word": " readable,",
+          "start": 29.5,
+          "end": 29.96,
+          "probability": 0.66552734375
+        },
+        {
+          "word": " and",
+          "start": 30.24,
+          "end": 30.42,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " the",
+          "start": 30.42,
+          "end": 30.52,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " graphics",
+          "start": 30.52,
+          "end": 30.8,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " consistent,",
+          "start": 30.8,
+          "end": 31.56,
+          "probability": 0.9287109375
+        },
+        {
+          "word": " when",
+          "start": 31.9,
+          "end": 32.14,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " your",
+          "start": 32.14,
+          "end": 32.28,
+          "probability": 0.998046875
+        },
+        {
+          "word": " brand",
+          "start": 32.28,
+          "end": 32.52,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " changes,",
+          "start": 32.52,
+          "end": 33.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " update",
+          "start": 33.4,
+          "end": 33.74,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " the",
+          "start": 33.74,
+          "end": 34.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " design",
+          "start": 34.0,
+          "end": 34.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " without",
+          "start": 34.3,
+          "end": 34.56,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2950,
+      "start": 34.56,
+      "end": 38.04,
+      "text": " rebuilding the story, that is the workflow we are testing today.",
+      "tokens": [
+        50625,
+        25448,
+        262,
+        1621,
+        11,
+        326,
+        318,
+        262,
+        30798,
+        356,
+        389,
+        4856,
+        1909,
+        13,
+        50795
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22713572838727167,
+      "compression_ratio": 1.3391304347826087,
+      "no_speech_prob": 0.36592021584510803,
+      "words": [
+        {
+          "word": " rebuilding",
+          "start": 34.56,
+          "end": 35.06,
+          "probability": 0.98046875
+        },
+        {
+          "word": " the",
+          "start": 35.06,
+          "end": 35.42,
+          "probability": 0.998046875
+        },
+        {
+          "word": " story,",
+          "start": 35.42,
+          "end": 35.7,
+          "probability": 0.99609375
+        },
+        {
+          "word": " that",
+          "start": 36.04,
+          "end": 36.22,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " is",
+          "start": 36.22,
+          "end": 36.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 36.34,
+          "end": 36.5,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " workflow",
+          "start": 36.5,
+          "end": 36.7,
+          "probability": 0.93603515625
+        },
+        {
+          "word": " we",
+          "start": 36.7,
+          "end": 37.12,
+          "probability": 0.998046875
+        },
+        {
+          "word": " are",
+          "start": 37.12,
+          "end": 37.26,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " testing",
+          "start": 37.26,
+          "end": 37.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " today.",
+          "start": 37.56,
+          "end": 38.04,
+          "probability": 0.9970703125
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

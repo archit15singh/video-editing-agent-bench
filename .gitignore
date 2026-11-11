@@ -8,3 +8,6 @@ results/*/media/
 __pycache__/
 .DS_Store
 results/source-inspection/
+adapters/round-two/hyperframes-*/assets/
+adapters/round-two/hyperframes-*/.hyperframes/
+adapters/round-two/hyperframes-*/renders/

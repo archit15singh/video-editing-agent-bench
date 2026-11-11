@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/remotion",
+    "render",
+    "adapters/round-two/remotion.jsx",
+    "RoundTwo",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/remotion-first-silent.mp4",
+    "--public-dir",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media",
+    "--props",
+    "{\"version\": \"first\"}",
+    "--concurrency",
+    "2",
+    "--log",
+    "error"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 33.501,
+  "observed_at": "2026-11-11T20:31:23.348091+00:00"
+}

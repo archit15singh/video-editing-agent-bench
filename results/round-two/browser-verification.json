@@ -1,0 +1,13 @@
+{
+  "report": "artifacts/round-two.html",
+  "browser": "Brave",
+  "embedded_mp4_bytes_match_source": true,
+  "play_both": true,
+  "pause_both": true,
+  "observed_pause_times": [
+    9.45172,
+    9.46174
+  ],
+  "no_listening_claim": true,
+  "packaging_defect_fixed": "Generic RAW string replacement corrupted base64; unique template placeholders now preserve exact bytes."
+}

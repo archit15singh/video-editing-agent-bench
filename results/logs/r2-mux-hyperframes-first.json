@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-y",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-first-silent.mp4",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/mix.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-shortest",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-first.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvvenc --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      61.  1.100 / 61.  1.100\n  libavcodec     63.  1.100 / 63.  1.100\n  libavformat    63.  1.100 / 63.  1.100\n  libavdevice    63.  1.100 / 63.  1.100\n  libavfilter    12.  1.100 / 12.  1.100\n  libswscale     10.  1.100 / 10.  1.100\n  libswresample   7.  1.100 /  7.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-first-silent.mp4':\n  Metadata:\n    minor_version   : 512;512\n    major_brand     : isom;isom\n    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41\n    hyperframes_version: 0.9.34\n    hyperframes_renderer: hyperframes\n    encoder         : Lavf63.1.100\n  Duration: 00:00:38.40, start: 0.000000, bitrate: 241 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 239 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.100 libx264\n[aist#1:0/pcm_s16le @ 0x133804fa0] Guessed Channel Layout: stereo\nInput #1, wav, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/mix.wav':\n  Metadata:\n    encoder         : Lavf63.1.100\n  Duration: 00:00:38.42, bitrate: 1536 kb/s\n  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (copy)\n  Stream #1:0 -> #0:1 (pcm_s16le (native) -> aac (native))\nPress [q] to stop, [?] for help\nOutput #0, mp4, to '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-first.mp4':\n  Metadata:\n    minor_version   : 512;512\n    major_brand     : isom;isom\n    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41\n    hyperframes_version: 0.9.34\n    hyperframes_renderer: hyperframes\n    encoder         : Lavf63.1.100\n  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 239 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.100 libx264\n  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s\n    Metadata:\n      encoder         : Lavc63.1.100 aac\n[out#0/mp4 @ 0x600003620240] video:1124KiB audio:906KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.663723%\nframe= 1152 fps=0.0 q=-1.0 Lsize=    2064KiB time=00:00:38.40 bitrate= 440.2kbits/s speed= 108x elapsed=0:00:00.35    \n[aac @ 0x133806650] Qavg: 718.730\n",
+  "elapsed_seconds": 0.381,
+  "observed_at": "2026-11-11T20:37:13.619115+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "show"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"rev\": 3,\n  \"durationSec\": 42.68,\n  \"canvas\": {\n    \"width\": 1280,\n    \"height\": 720,\n    \"fps\": 30\n  },\n  \"exportable\": true,\n  \"blockers\": [],\n  \"tracks\": [\n    {\n      \"id\": \"v0\",\n      \"kind\": \"video\",\n      \"muted\": false,\n      \"clips\": [\n        {\n          \"id\": \"clip_45bc16e0\",\n          \"kind\": \"media\",\n          \"startSec\": 0,\n          \"endSec\": 42.68,\n          \"durationSec\": 42.68,\n          \"label\": \"m_e0df4788fa8d\"\n        }\n      ],\n      \"transitions\": []\n    }\n  ]\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.09,
+  "observed_at": "2026-11-11T20:26:43.826555+00:00"
+}

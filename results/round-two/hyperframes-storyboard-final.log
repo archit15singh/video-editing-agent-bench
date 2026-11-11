@@ -1,0 +1,22 @@
+◆  Capturing 6 frames at [3.2s, 4.5s, 7s, 16.5s, 18s, 28.5s] from hyperframes-first
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M6, Unspecified Version)")
+
+   Fonts: 2 loaded
+   ⚠ cleared 7 stills from an earlier run in /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final
+[hyperframes] snapshot: frame 1/6 at 3.2s
+[hyperframes] snapshot: frame 2/6 at 4.5s
+[hyperframes] snapshot: frame 3/6 at 7s
+[hyperframes] snapshot: frame 4/6 at 16.5s
+[hyperframes] snapshot: frame 5/6 at 18s
+[hyperframes] snapshot: frame 6/6 at 28.5s
+   Revision: e496eab2-0872-478b-8a78-54fb60a94b1a (recorded-revision)
+   State: /Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/.hyperframes/video-state.json
+
+◇  6 snapshots saved to /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-00-at-3.2s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-01-at-4.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-02-at-7s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-03-at-16.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-04-at-18s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/frame-05-at-28.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard-final/contact-sheet.jpg (grid view for AI review)

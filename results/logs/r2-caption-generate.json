@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "captions",
+    "--words",
+    "7",
+    "--font",
+    "30",
+    "--anchor",
+    "bottom-center"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"captions\": 22,\n  \"clipIds\": [\n    \"clip_a5e579f8\"\n  ],\n  \"track\": \"captions\",\n  \"applied\": true,\n  \"rev\": 6\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.108,
+  "observed_at": "2026-11-11T20:35:21.620523+00:00"
+}

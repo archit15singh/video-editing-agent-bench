@@ -1,0 +1,871 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"plate-0\"> is a timeline element that contains nested <div id=\"moving-0\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#plate-0",
+        "dataAttributes": {},
+        "sourceFile": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"plate-0\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"plate-1\"> is a timeline element that contains nested <div id=\"moving-1\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#plate-1",
+        "dataAttributes": {},
+        "sourceFile": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"plate-1\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"plate-2\"> is a timeline element that contains nested <div id=\"moving-2\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#plate-2",
+        "dataAttributes": {},
+        "sourceFile": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"plate-2\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 2,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 27.733,
+        "selector": "#root > h1:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 440,
+          "top": 174,
+          "right": 791.05,
+          "bottom": 322.19,
+          "width": 351.05,
+          "height": 148.19
+        },
+        "containerSelector": "#moving-2 > img:nth-of-type(1)",
+        "text": "Make the storyeasy to follow.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 38.4
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 440,
+          "y": 174,
+          "width": 351.05,
+          "height": 148.19
+        },
+        "firstSeen": 6.4,
+        "lastSeen": 32,
+        "occurrences": 4,
+        "heldMs": 0,
+        "times": [
+          6.4,
+          19.2,
+          27.733,
+          32
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 27.733,
+        "selector": "p.sub",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 444,
+          "top": 372,
+          "right": 819.11,
+          "bottom": 436.8,
+          "width": 375.11,
+          "height": 64.8
+        },
+        "containerSelector": "#moving-2 > img:nth-of-type(1)",
+        "text": "A reproducible editing experiment.Fictitious product. Real pipeline.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "lifetime": {
+          "start": 0,
+          "end": 38.4
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 444,
+          "y": 372,
+          "width": 375.11,
+          "height": 64.8
+        },
+        "firstSeen": 6.4,
+        "lastSeen": 32,
+        "occurrences": 4,
+        "heldMs": 0,
+        "times": [
+          6.4,
+          19.2,
+          27.733,
+          32
+        ]
+      }
+    ],
+    "duration": 38.4,
+    "samples": [
+      2.133,
+      6.4,
+      10.667,
+      14.933,
+      19.2,
+      23.467,
+      27.733,
+      32,
+      36.267
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      2.133,
+      10.667,
+      19.2,
+      27.733,
+      36.267
+    ],
+    "checked": 32,
+    "passed": 32
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 9,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 19 px (2.6% of the 720 px short side, what a phone can read) and \"STORY → SCREEN → DELIVERY\" renders at 12 px for 38.40 s: set reading text to at least 19 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "STORY → SCREEN → DELIVERY",
+        "selector": "div.brand > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 620.36,
+          "y": 49,
+          "width": 230.8,
+          "height": 15
+        },
+        "time": 0,
+        "times": [
+          0
+        ],
+        "fontPx": 12,
+        "floorPx": 19,
+        "seconds": 38.4,
+        "elements": [
+          {
+            "selector": "div.brand > span:nth-of-type(1)",
+            "text": "STORY → SCREEN → DELIVERY",
+            "fontPx": 12,
+            "time": 0,
+            "seconds": 38.4
+          }
+        ]
+      },
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 38 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"a clear story.\" (3 words) is on screen 1.00 s (±0.01 s), under its 1.05 s floor: hold it about 0.5 s + 0.3 s a word (1.40 s here) before it leaves or changes; see references/motion.md.",
+        "text": "a clear story.",
+        "selector": "#caption-1",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 547.09,
+          "y": 633,
+          "width": 185.82000000000005,
+          "height": 36
+        },
+        "time": 1.706,
+        "words": 3,
+        "seconds": 0.998,
+        "floorSeconds": 1.05,
+        "measured": [
+          {
+            "time": 1.371,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 1.496,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 1.621,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 1.745,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 1.87,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 1.995,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.119,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.244,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.369,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.494,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.618,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.743,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.868,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.992,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"Frame lab brings your\" (4 words) is on screen 1.20 s (±0.01 s), under its 1.27 s floor: hold it about 0.5 s + 0.3 s a word (1.70 s here) before it leaves or changes; see references/motion.md.",
+        "text": "Frame lab brings your",
+        "selector": "#caption-2",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 484,
+          "y": 633,
+          "width": 311.98,
+          "height": 36
+        },
+        "time": 2.704,
+        "words": 4,
+        "seconds": 1.2,
+        "floorSeconds": 1.275,
+        "measured": [
+          {
+            "time": 2.369,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.494,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.618,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 2.743,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.868,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 2.992,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.117,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.491,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.616,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.74,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.865,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 3.99,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 4.114,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 4.239,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"scene has\" (2 words) is on screen 0.37 s (±0.01 s), under its 0.40 s floor: hold it about 0.5 s + 0.3 s a word (1.10 s here) before it leaves or changes; see references/motion.md.",
+        "text": "scene has",
+        "selector": "#caption-7",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 633,
+          "width": 146,
+          "height": 36
+        },
+        "time": 11.907,
+        "words": 2,
+        "seconds": 0.366,
+        "floorSeconds": 0.4,
+        "measured": [
+          {
+            "time": 11.595,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 11.719,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 11.844,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 11.969,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 12.094,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 12.218,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 12.343,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 12.468,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 12.592,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"or show the product in\" (5 words) is on screen 1.30 s (±0.01 s), under its 1.50 s floor: hold it about 0.5 s + 0.3 s a word (2.00 s here) before it leaves or changes; see references/motion.md.",
+        "text": "or show the product in",
+        "selector": "#caption-13",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 479.13,
+          "y": 633,
+          "width": 321.73,
+          "height": 36
+        },
+        "time": 22.668,
+        "words": 5,
+        "seconds": 1.301,
+        "floorSeconds": 1.5,
+        "measured": [
+          {
+            "time": 22.317,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 22.442,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 22.566,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 22.691,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 22.816,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 22.94,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 23.065,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 23.564,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 23.688,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 23.813,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 23.938,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 24.062,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 24.187,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 24.312,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"action.\" (1 word) is on screen 0.23 s (±0.01 s), under its 0.40 s floor: hold it about 0.5 s + 0.3 s a word (0.80 s here) before it leaves or changes; see references/motion.md.",
+        "text": "action.",
+        "selector": "#caption-14",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 591.31,
+          "y": 633,
+          "width": 97.38,
+          "height": 36
+        },
+        "time": 23.969,
+        "words": 1,
+        "seconds": 0.234,
+        "floorSeconds": 0.4,
+        "measured": [
+          {
+            "time": 23.688,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 23.813,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 23.938,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 24.062,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 24.187,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 24.312,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 24.436,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 24.561,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"that is the workflow we\" (5 words) is on screen 1.20 s (±0.01 s), under its 1.50 s floor: hold it about 0.5 s + 0.3 s a word (2.00 s here) before it leaves or changes; see references/motion.md.",
+        "text": "that is the workflow we",
+        "selector": "#caption-22",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 474.05,
+          "y": 633,
+          "width": 331.89000000000004,
+          "height": 36
+        },
+        "time": 36.039,
+        "words": 5,
+        "seconds": 1.2,
+        "floorSeconds": 1.5,
+        "measured": [
+          {
+            "time": 35.782,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 35.906,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 36.031,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 36.156,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 36.281,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 36.405,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 36.53,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 36.779,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 36.904,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.029,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.153,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.278,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 37.403,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 37.527,
+            "opacity": null,
+            "heightPx": null
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"are testing today.\" (3 words) is on screen 1.16 s (±0.01 s), under the 2.00 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "are testing today.",
+        "selector": "#caption-23",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 516,
+          "y": 633,
+          "width": 248,
+          "height": 36
+        },
+        "time": 37.239,
+        "words": 3,
+        "seconds": 1.165,
+        "floorSeconds": 2,
+        "measured": [
+          {
+            "time": 36.904,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 37.029,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 37.153,
+            "opacity": null,
+            "heightPx": null
+          },
+          {
+            "time": 37.278,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.403,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.527,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.652,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 37.901,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 38.026,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 38.151,
+            "opacity": 1,
+            "heightPx": 36
+          },
+          {
+            "time": 38.275,
+            "opacity": 1,
+            "heightPx": 36
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 308
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "2f46e679-a702-4537-8b68-25b0fb1af292",
+    "revision": "2aa716ef-5c98-44f9-9e0e-8191b6a4231e",
+    "report": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/.hyperframes/artifacts/checks/2f46e679-a702-4537-8b68-25b0fb1af292.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.9.34",
+    "latestVersion": "0.9.34",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-11T20:27:43.893Z"
+  }
+}

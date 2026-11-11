@@ -1,0 +1,694 @@
+{
+  "clipId": "clip_45bc16e0",
+  "mediaId": "m_e0df4788fa8d",
+  "language": "en",
+  "text": "This is a rejected take, please discard this sentence. A useful video starts with a clear story. Frame lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut, remove the mistakes and long pauses, then check the words that remain, give each visual one job, highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise, keep the narration clear, the captions readable, and the graphics consistent, when your brand changes, update the design without rebuilding the story, that is the workflow we are testing today.",
+  "words": [
+    {
+      "index": 0,
+      "text": "This",
+      "startSec": 0.04,
+      "endSec": 0.3
+    },
+    {
+      "index": 1,
+      "text": "is",
+      "startSec": 0.3,
+      "endSec": 0.45
+    },
+    {
+      "index": 2,
+      "text": "a",
+      "startSec": 0.45,
+      "endSec": 0.52
+    },
+    {
+      "index": 3,
+      "text": "rejected",
+      "startSec": 0.52,
+      "endSec": 1.12
+    },
+    {
+      "index": 4,
+      "text": "take,",
+      "startSec": 1.12,
+      "endSec": 1.7
+    },
+    {
+      "index": 5,
+      "text": "please",
+      "startSec": 1.7,
+      "endSec": 2.23
+    },
+    {
+      "index": 6,
+      "text": "discard",
+      "startSec": 2.23,
+      "endSec": 2.96
+    },
+    {
+      "index": 7,
+      "text": "this",
+      "startSec": 2.96,
+      "endSec": 4.24
+    },
+    {
+      "index": 8,
+      "text": "sentence.",
+      "startSec": 4.24,
+      "endSec": 4.24
+    },
+    {
+      "index": 9,
+      "text": "A",
+      "startSec": 4.24,
+      "endSec": 4.31
+    },
+    {
+      "index": 10,
+      "text": "useful",
+      "startSec": 4.31,
+      "endSec": 4.76
+    },
+    {
+      "index": 11,
+      "text": "video",
+      "startSec": 4.76,
+      "endSec": 5.14
+    },
+    {
+      "index": 12,
+      "text": "starts",
+      "startSec": 5.14,
+      "endSec": 5.89
+    },
+    {
+      "index": 13,
+      "text": "with",
+      "startSec": 5.89,
+      "endSec": 5.94
+    },
+    {
+      "index": 14,
+      "text": "a",
+      "startSec": 5.94,
+      "endSec": 5.96
+    },
+    {
+      "index": 15,
+      "text": "clear",
+      "startSec": 5.96,
+      "endSec": 6.34
+    },
+    {
+      "index": 16,
+      "text": "story.",
+      "startSec": 6.34,
+      "endSec": 6.94
+    },
+    {
+      "index": 17,
+      "text": "Frame",
+      "startSec": 6.94,
+      "endSec": 7.3
+    },
+    {
+      "index": 18,
+      "text": "lab",
+      "startSec": 7.3,
+      "endSec": 7.47
+    },
+    {
+      "index": 19,
+      "text": "brings",
+      "startSec": 7.47,
+      "endSec": 7.87
+    },
+    {
+      "index": 20,
+      "text": "your",
+      "startSec": 7.87,
+      "endSec": 8.14
+    },
+    {
+      "index": 21,
+      "text": "recordings,",
+      "startSec": 8.14,
+      "endSec": 8.94
+    },
+    {
+      "index": 22,
+      "text": "notes,",
+      "startSec": 8.94,
+      "endSec": 9.44
+    },
+    {
+      "index": 23,
+      "text": "and",
+      "startSec": 9.44,
+      "endSec": 9.63
+    },
+    {
+      "index": 24,
+      "text": "screenshots",
+      "startSec": 9.63,
+      "endSec": 10.73
+    },
+    {
+      "index": 25,
+      "text": "into",
+      "startSec": 10.73,
+      "endSec": 10.73
+    },
+    {
+      "index": 26,
+      "text": "one",
+      "startSec": 10.73,
+      "endSec": 11.19
+    },
+    {
+      "index": 27,
+      "text": "place.",
+      "startSec": 11.19,
+      "endSec": 11.88
+    },
+    {
+      "index": 28,
+      "text": "Start",
+      "startSec": 11.88,
+      "endSec": 12.24
+    },
+    {
+      "index": 29,
+      "text": "by",
+      "startSec": 12.24,
+      "endSec": 12.35
+    },
+    {
+      "index": 30,
+      "text": "organizing",
+      "startSec": 12.35,
+      "endSec": 13.03
+    },
+    {
+      "index": 31,
+      "text": "the",
+      "startSec": 13.03,
+      "endSec": 13.58
+    },
+    {
+      "index": 32,
+      "text": "material",
+      "startSec": 13.58,
+      "endSec": 13.87
+    },
+    {
+      "index": 33,
+      "text": "you",
+      "startSec": 13.87,
+      "endSec": 13.97
+    },
+    {
+      "index": 34,
+      "text": "actually",
+      "startSec": 13.97,
+      "endSec": 14.52
+    },
+    {
+      "index": 35,
+      "text": "need,",
+      "startSec": 14.52,
+      "endSec": 14.95
+    },
+    {
+      "index": 36,
+      "text": "so",
+      "startSec": 14.95,
+      "endSec": 15.66
+    },
+    {
+      "index": 37,
+      "text": "every",
+      "startSec": 15.66,
+      "endSec": 16.13
+    },
+    {
+      "index": 38,
+      "text": "scene",
+      "startSec": 16.13,
+      "endSec": 16.16
+    },
+    {
+      "index": 39,
+      "text": "has",
+      "startSec": 16.16,
+      "endSec": 16.55
+    },
+    {
+      "index": 40,
+      "text": "a",
+      "startSec": 16.55,
+      "endSec": 16.56
+    },
+    {
+      "index": 41,
+      "text": "purpose.",
+      "startSec": 16.56,
+      "endSec": 17.6
+    },
+    {
+      "index": 42,
+      "text": "Next,",
+      "startSec": 17.6,
+      "endSec": 18.24
+    },
+    {
+      "index": 43,
+      "text": "review",
+      "startSec": 18.24,
+      "endSec": 18.88
+    },
+    {
+      "index": 44,
+      "text": "the",
+      "startSec": 18.88,
+      "endSec": 19.3
+    },
+    {
+      "index": 45,
+      "text": "cut,",
+      "startSec": 19.3,
+      "endSec": 19.83
+    },
+    {
+      "index": 46,
+      "text": "remove",
+      "startSec": 19.83,
+      "endSec": 20.37
+    },
+    {
+      "index": 47,
+      "text": "the",
+      "startSec": 20.37,
+      "endSec": 20.65
+    },
+    {
+      "index": 48,
+      "text": "mistakes",
+      "startSec": 20.65,
+      "endSec": 21.85
+    },
+    {
+      "index": 49,
+      "text": "and",
+      "startSec": 21.85,
+      "endSec": 21.87
+    },
+    {
+      "index": 50,
+      "text": "long",
+      "startSec": 21.87,
+      "endSec": 22.3
+    },
+    {
+      "index": 51,
+      "text": "pauses,",
+      "startSec": 22.3,
+      "endSec": 23.2
+    },
+    {
+      "index": 52,
+      "text": "then",
+      "startSec": 23.2,
+      "endSec": 23.38
+    },
+    {
+      "index": 53,
+      "text": "check",
+      "startSec": 23.38,
+      "endSec": 23.6
+    },
+    {
+      "index": 54,
+      "text": "the",
+      "startSec": 23.6,
+      "endSec": 23.73
+    },
+    {
+      "index": 55,
+      "text": "words",
+      "startSec": 23.73,
+      "endSec": 23.95
+    },
+    {
+      "index": 56,
+      "text": "that",
+      "startSec": 23.95,
+      "endSec": 24.16
+    },
+    {
+      "index": 57,
+      "text": "remain,",
+      "startSec": 24.16,
+      "endSec": 25.17
+    },
+    {
+      "index": 58,
+      "text": "give",
+      "startSec": 25.17,
+      "endSec": 25.42
+    },
+    {
+      "index": 59,
+      "text": "each",
+      "startSec": 25.42,
+      "endSec": 25.86
+    },
+    {
+      "index": 60,
+      "text": "visual",
+      "startSec": 25.86,
+      "endSec": 26.15
+    },
+    {
+      "index": 61,
+      "text": "one",
+      "startSec": 26.15,
+      "endSec": 26.39
+    },
+    {
+      "index": 62,
+      "text": "job,",
+      "startSec": 26.39,
+      "endSec": 26.64
+    },
+    {
+      "index": 63,
+      "text": "highlight",
+      "startSec": 26.64,
+      "endSec": 27.21
+    },
+    {
+      "index": 64,
+      "text": "a",
+      "startSec": 27.21,
+      "endSec": 28.02
+    },
+    {
+      "index": 65,
+      "text": "decision,",
+      "startSec": 28.02,
+      "endSec": 28.41
+    },
+    {
+      "index": 66,
+      "text": "explain",
+      "startSec": 28.41,
+      "endSec": 28.78
+    },
+    {
+      "index": 67,
+      "text": "a",
+      "startSec": 28.78,
+      "endSec": 28.83
+    },
+    {
+      "index": 68,
+      "text": "change,",
+      "startSec": 28.83,
+      "endSec": 29.37
+    },
+    {
+      "index": 69,
+      "text": "or",
+      "startSec": 29.37,
+      "endSec": 29.46
+    },
+    {
+      "index": 70,
+      "text": "show",
+      "startSec": 29.46,
+      "endSec": 29.6
+    },
+    {
+      "index": 71,
+      "text": "the",
+      "startSec": 29.6,
+      "endSec": 29.76
+    },
+    {
+      "index": 72,
+      "text": "product",
+      "startSec": 29.8,
+      "endSec": 30.49
+    },
+    {
+      "index": 73,
+      "text": "in",
+      "startSec": 30.49,
+      "endSec": 30.69
+    },
+    {
+      "index": 74,
+      "text": "action.",
+      "startSec": 30.69,
+      "endSec": 31.64
+    },
+    {
+      "index": 75,
+      "text": "Finally,",
+      "startSec": 31.64,
+      "endSec": 32.37
+    },
+    {
+      "index": 76,
+      "text": "deliver",
+      "startSec": 32.37,
+      "endSec": 32.94
+    },
+    {
+      "index": 77,
+      "text": "a",
+      "startSec": 32.94,
+      "endSec": 33.34
+    },
+    {
+      "index": 78,
+      "text": "video",
+      "startSec": 33.34,
+      "endSec": 33.42
+    },
+    {
+      "index": 79,
+      "text": "that",
+      "startSec": 33.42,
+      "endSec": 33.74
+    },
+    {
+      "index": 80,
+      "text": "is",
+      "startSec": 33.74,
+      "endSec": 33.9
+    },
+    {
+      "index": 81,
+      "text": "easy",
+      "startSec": 33.9,
+      "endSec": 34.28
+    },
+    {
+      "index": 82,
+      "text": "to",
+      "startSec": 34.28,
+      "endSec": 34.38
+    },
+    {
+      "index": 83,
+      "text": "revise,",
+      "startSec": 34.38,
+      "endSec": 35.32
+    },
+    {
+      "index": 84,
+      "text": "keep",
+      "startSec": 35.32,
+      "endSec": 35.32
+    },
+    {
+      "index": 85,
+      "text": "the",
+      "startSec": 35.32,
+      "endSec": 35.89
+    },
+    {
+      "index": 86,
+      "text": "narration",
+      "startSec": 35.89,
+      "endSec": 36.06
+    },
+    {
+      "index": 87,
+      "text": "clear,",
+      "startSec": 36.06,
+      "endSec": 36.49
+    },
+    {
+      "index": 88,
+      "text": "the",
+      "startSec": 36.49,
+      "endSec": 36.67
+    },
+    {
+      "index": 89,
+      "text": "captions",
+      "startSec": 36.67,
+      "endSec": 37.2
+    },
+    {
+      "index": 90,
+      "text": "readable,",
+      "startSec": 37.2,
+      "endSec": 37.84
+    },
+    {
+      "index": 91,
+      "text": "and",
+      "startSec": 37.84,
+      "endSec": 38.05
+    },
+    {
+      "index": 92,
+      "text": "the",
+      "startSec": 38.05,
+      "endSec": 38.23
+    },
+    {
+      "index": 93,
+      "text": "graphics",
+      "startSec": 38.23,
+      "endSec": 38.9
+    },
+    {
+      "index": 94,
+      "text": "consistent,",
+      "startSec": 38.9,
+      "endSec": 39.53
+    },
+    {
+      "index": 95,
+      "text": "when",
+      "startSec": 39.53,
+      "endSec": 39.84
+    },
+    {
+      "index": 96,
+      "text": "your",
+      "startSec": 39.84,
+      "endSec": 40.05
+    },
+    {
+      "index": 97,
+      "text": "brand",
+      "startSec": 40.05,
+      "endSec": 40.25
+    },
+    {
+      "index": 98,
+      "text": "changes,",
+      "startSec": 40.25,
+      "endSec": 41.34
+    },
+    {
+      "index": 99,
+      "text": "update",
+      "startSec": 41.34,
+      "endSec": 41.45
+    },
+    {
+      "index": 100,
+      "text": "the",
+      "startSec": 41.45,
+      "endSec": 41.53
+    },
+    {
+      "index": 101,
+      "text": "design",
+      "startSec": 41.53,
+      "endSec": 41.92
+    },
+    {
+      "index": 102,
+      "text": "without",
+      "startSec": 41.92,
+      "endSec": 42.44
+    },
+    {
+      "index": 103,
+      "text": "rebuilding",
+      "startSec": 42.44,
+      "endSec": 43.07
+    },
+    {
+      "index": 104,
+      "text": "the",
+      "startSec": 43.07,
+      "endSec": 43.29
+    },
+    {
+      "index": 105,
+      "text": "story,",
+      "startSec": 43.29,
+      "endSec": 43.69
+    },
+    {
+      "index": 106,
+      "text": "that",
+      "startSec": 43.69,
+      "endSec": 44.06
+    },
+    {
+      "index": 107,
+      "text": "is",
+      "startSec": 44.06,
+      "endSec": 44.14
+    },
+    {
+      "index": 108,
+      "text": "the",
+      "startSec": 44.14,
+      "endSec": 44.25
+    },
+    {
+      "index": 109,
+      "text": "workflow",
+      "startSec": 44.25,
+      "endSec": 44.75
+    },
+    {
+      "index": 110,
+      "text": "we",
+      "startSec": 44.75,
+      "endSec": 44.87
+    },
+    {
+      "index": 111,
+      "text": "are",
+      "startSec": 44.87,
+      "endSec": 45.08
+    },
+    {
+      "index": 112,
+      "text": "testing",
+      "startSec": 45.08,
+      "endSec": 45.49
+    },
+    {
+      "index": 113,
+      "text": "today.",
+      "startSec": 45.49,
+      "endSec": 45.88
+    }
+  ],
+  "retakes": [],
+  "transcriptId": "d9d8339211ff"
+}

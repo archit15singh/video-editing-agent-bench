@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "export",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/cleanup-captions.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/round-two/media/cleanup-captions.mp4\",\n  \"steps\": 5,\n  \"durationSec\": 38.392,\n  \"durationMs\": 2486\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 2.581,
+  "observed_at": "2026-11-11T20:26:49.106902+00:00"
+}

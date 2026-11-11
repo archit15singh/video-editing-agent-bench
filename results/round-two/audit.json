@@ -1,0 +1,7 @@
+{
+  "complete": true,
+  "issues": [],
+  "limitations": [
+    "Hash and coverage audit does not judge aesthetics or validate manual assertions."
+  ]
+}

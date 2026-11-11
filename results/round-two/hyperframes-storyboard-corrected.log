@@ -1,0 +1,21 @@
+◆  Capturing 4 frames at [3.2s, 4.5s, 16.5s, 28.5s] from hyperframes-first
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to /Users/singh/.cache/hyperframes/fonts/inter)
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to /Users/singh/.cache/hyperframes/fonts/eb-garamond)
+[INFO] [Compiler] Injected deterministic @font-face rules for 2 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M6, Unspecified Version)")
+
+   Fonts: 14 loaded
+   ⚠ cleared 5 stills from an earlier run in /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard
+[hyperframes] snapshot: frame 1/4 at 3.2s
+[hyperframes] snapshot: frame 2/4 at 4.5s
+[hyperframes] snapshot: frame 3/4 at 16.5s
+[hyperframes] snapshot: frame 4/4 at 28.5s
+   Revision: cef2d63c-b806-4feb-b86f-4b5f1ffa7744 (recorded-revision)
+   State: /Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/.hyperframes/video-state.json
+
+◇  4 snapshots saved to /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard/frame-00-at-3.2s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard/frame-01-at-4.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard/frame-02-at-16.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard/frame-03-at-28.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-storyboard/contact-sheet.jpg (grid view for AI review)

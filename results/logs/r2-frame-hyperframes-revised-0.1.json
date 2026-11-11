@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-y",
+    "-ss",
+    "0.1",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-revised.mp4",
+    "-frames:v",
+    "1",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/verification/hyperframes-revised/0.1.png"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvvenc --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      61.  1.100 / 61.  1.100\n  libavcodec     63.  1.100 / 63.  1.100\n  libavformat    63.  1.100 / 63.  1.100\n  libavdevice    63.  1.100 / 63.  1.100\n  libavfilter    12.  1.100 / 12.  1.100\n  libswscale     10.  1.100 / 10.  1.100\n  libswresample   7.  1.100 /  7.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-revised.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf63.1.100\n  Duration: 00:00:38.40, start: 0.000000, bitrate: 448 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 248 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc63.1.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)\n    Metadata:\n      handler_name    : SoundHandler\nStream mapping:\n  Stream #0:0 -> #0:0 (h264 (native) -> png (native))\nPress [q] to stop, [?] for help\nOutput #0, image2, to '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/verification/hyperframes-revised/0.1.png':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf63.1.100\n  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)\n    Metadata:\n      encoder         : Lavc63.1.100 png\n      handler_name    : VideoHandler\n[image2 @ 0x15b804a20] The specified filename '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/verification/hyperframes-revised/0.1.png' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x15b804a20] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n[out#0/image2 @ 0x600001d30180] video:109KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.03 bitrate=N/A speed=2.32x elapsed=0:00:00.01    \n",
+  "elapsed_seconds": 0.028,
+  "observed_at": "2026-11-11T20:41:11.940157+00:00"
+}

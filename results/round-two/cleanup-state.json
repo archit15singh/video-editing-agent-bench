@@ -1,0 +1,245 @@
+{
+  "rev": 5,
+  "durationSec": 38.392,
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "exportable": true,
+  "blockers": [],
+  "tracks": [
+    {
+      "id": "v0",
+      "kind": "video",
+      "muted": false,
+      "clips": [
+        {
+          "id": "clip_45bc16e0",
+          "kind": "media",
+          "startSec": 0,
+          "endSec": 12.2429,
+          "durationSec": 12.2429,
+          "label": "m_e0df4788fa8d"
+        },
+        {
+          "id": "clip_cdd8e54c",
+          "kind": "media",
+          "startSec": 12.2429,
+          "endSec": 24.167700000000004,
+          "durationSec": 11.924800000000001,
+          "label": "m_e0df4788fa8d"
+        },
+        {
+          "id": "clip_c3663c9a",
+          "kind": "media",
+          "startSec": 24.167700000000004,
+          "endSec": 38.392,
+          "durationSec": 14.2243,
+          "label": "m_e0df4788fa8d"
+        }
+      ],
+      "transitions": []
+    },
+    {
+      "id": "captions",
+      "kind": "video",
+      "muted": false,
+      "clips": [
+        {
+          "id": "clip_8bc228cc",
+          "kind": "text",
+          "startSec": 0,
+          "endSec": 1.7,
+          "durationSec": 1.7,
+          "label": "A useful video starts with"
+        },
+        {
+          "id": "clip_6b75f6fe",
+          "kind": "text",
+          "startSec": 1.7,
+          "endSec": 2.7,
+          "durationSec": 1,
+          "label": "a clear story."
+        },
+        {
+          "id": "clip_a85c881b",
+          "kind": "text",
+          "startSec": 2.7,
+          "endSec": 3.9000000000000004,
+          "durationSec": 1.2,
+          "label": "Frame lab brings your"
+        },
+        {
+          "id": "clip_4d3ea7ab",
+          "kind": "text",
+          "startSec": 3.9,
+          "endSec": 5.39,
+          "durationSec": 1.49,
+          "label": "recordings, notes, and"
+        },
+        {
+          "id": "clip_398283df",
+          "kind": "text",
+          "startSec": 5.39,
+          "endSec": 7.64,
+          "durationSec": 2.25,
+          "label": "screenshots into one place."
+        },
+        {
+          "id": "clip_3bfac578",
+          "kind": "text",
+          "startSec": 7.64,
+          "endSec": 9.629999999999999,
+          "durationSec": 1.99,
+          "label": "Start by organizing the materi\u2026"
+        },
+        {
+          "id": "clip_b1b8c173",
+          "kind": "text",
+          "startSec": 9.63,
+          "endSec": 11.89,
+          "durationSec": 2.26,
+          "label": "you actually need, so every"
+        },
+        {
+          "id": "clip_fd6d9eae",
+          "kind": "text",
+          "startSec": 11.89,
+          "endSec": 12.242,
+          "durationSec": 0.352,
+          "label": "scene has"
+        },
+        {
+          "id": "clip_5be02dec",
+          "kind": "text",
+          "startSec": 12.243,
+          "endSec": 15.119,
+          "durationSec": 2.876,
+          "label": "the cut, remove the mistakes"
+        },
+        {
+          "id": "clip_e4634338",
+          "kind": "text",
+          "startSec": 15.119,
+          "endSec": 16.869,
+          "durationSec": 1.75,
+          "label": "and long pauses, then check"
+        },
+        {
+          "id": "clip_f38abe36",
+          "kind": "text",
+          "startSec": 16.869,
+          "endSec": 18.689,
+          "durationSec": 1.82,
+          "label": "the words that remain, give"
+        },
+        {
+          "id": "clip_812663f9",
+          "kind": "text",
+          "startSec": 18.689,
+          "endSec": 20.479,
+          "durationSec": 1.79,
+          "label": "each visual one job, highlight"
+        },
+        {
+          "id": "clip_ffb94d27",
+          "kind": "text",
+          "startSec": 20.479,
+          "endSec": 22.639,
+          "durationSec": 2.16,
+          "label": "a decision, explain a change,"
+        },
+        {
+          "id": "clip_958cd6c3",
+          "kind": "text",
+          "startSec": 22.639,
+          "endSec": 23.959,
+          "durationSec": 1.32,
+          "label": "or show the product in"
+        },
+        {
+          "id": "clip_1dc8f2b2",
+          "kind": "text",
+          "startSec": 23.959,
+          "endSec": 24.166999999999998,
+          "durationSec": 0.208,
+          "label": "action."
+        },
+        {
+          "id": "clip_449df208",
+          "kind": "text",
+          "startSec": 24.168,
+          "endSec": 26.076999999999998,
+          "durationSec": 1.909,
+          "label": "Finally, deliver a video that"
+        },
+        {
+          "id": "clip_ce69f766",
+          "kind": "text",
+          "startSec": 26.077,
+          "endSec": 27.657000000000004,
+          "durationSec": 1.58,
+          "label": "is easy to revise, keep"
+        },
+        {
+          "id": "clip_8ee42e4f",
+          "kind": "text",
+          "startSec": 27.657,
+          "endSec": 29.007,
+          "durationSec": 1.35,
+          "label": "the narration clear, the"
+        },
+        {
+          "id": "clip_5c51e336",
+          "kind": "text",
+          "startSec": 29.007,
+          "endSec": 30.567,
+          "durationSec": 1.56,
+          "label": "captions readable, and the"
+        },
+        {
+          "id": "clip_504a251a",
+          "kind": "text",
+          "startSec": 30.567,
+          "endSec": 32.387,
+          "durationSec": 1.82,
+          "label": "graphics consistent, when your"
+        },
+        {
+          "id": "clip_cf721c5d",
+          "kind": "text",
+          "startSec": 32.387,
+          "endSec": 34.257,
+          "durationSec": 1.87,
+          "label": "brand changes, update the desi\u2026"
+        },
+        {
+          "id": "clip_9ecd8047",
+          "kind": "text",
+          "startSec": 34.257,
+          "endSec": 36.027,
+          "durationSec": 1.77,
+          "label": "without rebuilding the story,"
+        },
+        {
+          "id": "clip_1adfb458",
+          "kind": "text",
+          "startSec": 36.027,
+          "endSec": 37.207,
+          "durationSec": 1.18,
+          "label": "that is the workflow we"
+        },
+        {
+          "id": "clip_ccd55d9d",
+          "kind": "text",
+          "startSec": 37.207,
+          "endSec": 38.392,
+          "durationSec": 1.185,
+          "label": "are testing today."
+        }
+      ],
+      "transitions": []
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "negative_control_wrong_brand_rejected": true,
+  "engines": {
+    "remotion": {
+      "versions": {
+        "first": {
+          "dimensions": true,
+          "fps": true,
+          "duration": true,
+          "full_decode": true,
+          "audio_present": true,
+          "brand_rgb": [
+            36,
+            186,
+            165
+          ],
+          "accent_pass": true,
+          "audio_pcm_sha256": "0c14396b7558b104f7e3e5d4ad80704d7d99486c749fedfce6b9b30e6ffa715d"
+        },
+        "revised": {
+          "dimensions": true,
+          "fps": true,
+          "duration": true,
+          "full_decode": true,
+          "audio_present": true,
+          "brand_rgb": [
+            242,
+            125,
+            101
+          ],
+          "accent_pass": true,
+          "audio_pcm_sha256": "0c14396b7558b104f7e3e5d4ad80704d7d99486c749fedfce6b9b30e6ffa715d"
+        }
+      },
+      "revision_preserves_picture_and_captions": [
+        {
+          "time": 1,
+          "region": "crop=300:360:60:170",
+          "mae": 0.016225308641975307,
+          "pass": true
+        },
+        {
+          "time": 1,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.052413504464285714,
+          "pass": true
+        },
+        {
+          "time": 4.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.015188271604938271,
+          "pass": true
+        },
+        {
+          "time": 4.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.034347098214285714,
+          "pass": true
+        },
+        {
+          "time": 16.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.011537037037037037,
+          "pass": true
+        },
+        {
+          "time": 16.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.07845982142857143,
+          "pass": true
+        },
+        {
+          "time": 28.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.01317283950617284,
+          "pass": true
+        },
+        {
+          "time": 28.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.31663411458333335,
+          "pass": true
+        },
+        {
+          "time": 36,
+          "region": "crop=300:360:60:170",
+          "mae": 0.02369753086419753,
+          "pass": true
+        },
+        {
+          "time": 36,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.16050502232142858,
+          "pass": true
+        }
+      ]
+    },
+    "hyperframes": {
+      "versions": {
+        "first": {
+          "dimensions": true,
+          "fps": true,
+          "duration": true,
+          "full_decode": true,
+          "audio_present": true,
+          "brand_rgb": [
+            37,
+            184,
+            164
+          ],
+          "accent_pass": true,
+          "audio_pcm_sha256": "0c14396b7558b104f7e3e5d4ad80704d7d99486c749fedfce6b9b30e6ffa715d"
+        },
+        "revised": {
+          "dimensions": true,
+          "fps": true,
+          "duration": true,
+          "full_decode": true,
+          "audio_present": true,
+          "brand_rgb": [
+            243,
+            125,
+            99
+          ],
+          "accent_pass": true,
+          "audio_pcm_sha256": "0c14396b7558b104f7e3e5d4ad80704d7d99486c749fedfce6b9b30e6ffa715d"
+        }
+      },
+      "revision_preserves_picture_and_captions": [
+        {
+          "time": 1,
+          "region": "crop=300:360:60:170",
+          "mae": 0.0398641975308642,
+          "pass": true
+        },
+        {
+          "time": 1,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.03917410714285714,
+          "pass": true
+        },
+        {
+          "time": 4.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.03973148148148148,
+          "pass": true
+        },
+        {
+          "time": 4.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.11872674851190476,
+          "pass": true
+        },
+        {
+          "time": 16.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.007561728395061728,
+          "pass": true
+        },
+        {
+          "time": 16.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.14122488839285716,
+          "pass": true
+        },
+        {
+          "time": 28.5,
+          "region": "crop=300:360:60:170",
+          "mae": 0.013558641975308643,
+          "pass": true
+        },
+        {
+          "time": 28.5,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.12730189732142858,
+          "pass": true
+        },
+        {
+          "time": 36,
+          "region": "crop=300:360:60:170",
+          "mae": 0.026675925925925926,
+          "pass": true
+        },
+        {
+          "time": 36,
+          "region": "crop=1024:70:128:615",
+          "mae": 0.13040364583333333,
+          "pass": true
+        }
+      ]
+    }
+  },
+  "shared_audio_identical": true,
+  "speech": {
+    "expected": "A useful video starts with a clear story. Frame Lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut. Remove the mistakes and long pauses, then check the words that remain. Give each visual one job. Highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise. Keep the narration clear, the captions readable, and the graphics consistent. When your brand changes, update the design without rebuilding the story. That is the workflow we are testing today.",
+    "recognized": "useful video starts with a clear story, frame lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut, remove the mistakes and long pauses, then check the words that remain, give each visual one job, highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise, keep the narration clear, the captions readable, and the graphics consistent, when your brand changes, update the design without rebuilding the story, that is the workflow we are testing today.",
+    "wer": 0.009523809523809525,
+    "rejected_take_absent": true
+  },
+  "passed": true
+}

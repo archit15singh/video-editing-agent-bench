@@ -1,0 +1,19 @@
+{
+  "operator": "same coordinating Codex session for both engines",
+  "human_judgment": "User approved synthetic inputs and isolated dependencies; no human aesthetic ratings collected.",
+  "shared_corrections": [
+    "Source label cropped in the picture pane: changed both panes to left-center cover.",
+    "Matched explicit local font files after HyperFrames substituted font families.",
+    "Increased supporting header type from 12px to 19px.",
+    "Source-fragment captions lost words across edits: re-transcribed cleaned single clip.",
+    "MakeMyClip word alignment ran past the clip end and omitted final words: used local MLX word timings, then grouped captions with a minimum display duration."
+  ],
+  "hyperframes_repairs": [
+    "FFmpeg not found for snapshot: passed documented binary path overrides.",
+    "System font metadata copy failed: copied file bytes without macOS flags.",
+    "Header CSS position differed in compiled snapshot: used explicit inline header position.",
+    "Intentional background headline occlusion reported: applied narrow occlusion annotations after inspecting layering."
+  ],
+  "remotion_repairs": [],
+  "limitations": "Counts are logged correction categories, not timed human interventions. Renderer implementation complexity and model reasoning time were not metered."
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "say",
+    "-v",
+    "Samantha",
+    "-r",
+    "166",
+    "-o",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/reject.aiff",
+    "This is a rejected take. Please discard this sentence."
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 1.707,
+  "observed_at": "2026-11-11T20:26:09.166644+00:00"
+}

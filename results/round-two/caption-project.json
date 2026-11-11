@@ -1,0 +1,343 @@
+{
+  "version": 1,
+  "rev": 6,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "background": "black",
+  "tracks": [
+    {
+      "id": "v0",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "media",
+          "id": "clip_a5e579f8",
+          "startSec": 0,
+          "effects": [],
+          "mediaId": "m_9124361c7737",
+          "sourceInSec": 0,
+          "sourceOutSec": 38.4
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    },
+    {
+      "id": "captions",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "text",
+          "id": "clip_85880f33",
+          "startSec": 0,
+          "effects": [],
+          "text": "useful video starts with a clear",
+          "durationSec": 1.99,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_a21a8e70",
+          "startSec": 1.99,
+          "effects": [],
+          "text": "story, frame lab brings your",
+          "durationSec": 1.64,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_6233e5d5",
+          "startSec": 3.63,
+          "effects": [],
+          "text": "recordings, notes, and",
+          "durationSec": 1.61,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_47fc7d2d",
+          "startSec": 5.24,
+          "effects": [],
+          "text": "screenshots into one place.",
+          "durationSec": 2.42,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_07f6d9e8",
+          "startSec": 7.66,
+          "effects": [],
+          "text": "Start by organizing the material",
+          "durationSec": 1.7,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_4166adf3",
+          "startSec": 9.36,
+          "effects": [],
+          "text": "you actually need, so every",
+          "durationSec": 1.87,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_290cb198",
+          "startSec": 11.23,
+          "effects": [],
+          "text": "scene has a purpose.",
+          "durationSec": 1.01,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_c387c956",
+          "startSec": 12.24,
+          "effects": [],
+          "text": "Next, review the cut, remove the",
+          "durationSec": 2.16,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_6087d704",
+          "startSec": 14.4,
+          "effects": [],
+          "text": "mistakes and long pauses, then",
+          "durationSec": 1.98,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_ade70805",
+          "startSec": 16.38,
+          "effects": [],
+          "text": "check the words that remain,",
+          "durationSec": 1.62,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_8ccf7adf",
+          "startSec": 18,
+          "effects": [],
+          "text": "give each visual one job,",
+          "durationSec": 1.66,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_a30a45ec",
+          "startSec": 19.66,
+          "effects": [],
+          "text": "highlight a decision, explain a",
+          "durationSec": 1.99,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_d0b896fd",
+          "startSec": 21.65,
+          "effects": [],
+          "text": "change, or show the product in",
+          "durationSec": 1.86,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_3502371d",
+          "startSec": 23.51,
+          "effects": [],
+          "text": "action.",
+          "durationSec": 0.57,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_4a951d5d",
+          "startSec": 24.08,
+          "effects": [],
+          "text": "Finally, deliver a video that is",
+          "durationSec": 1.99,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_946cab70",
+          "startSec": 26.07,
+          "effects": [],
+          "text": "easy to revise, keep the",
+          "durationSec": 1.51,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_c3154b70",
+          "startSec": 27.58,
+          "effects": [],
+          "text": "narration clear, the captions",
+          "durationSec": 2.01,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_16786e08",
+          "startSec": 29.59,
+          "effects": [],
+          "text": "readable, and the graphics",
+          "durationSec": 1.5,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_664df1a9",
+          "startSec": 31.09,
+          "effects": [],
+          "text": "consistent, when your brand",
+          "durationSec": 1.71,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_e7cd66ec",
+          "startSec": 32.8,
+          "effects": [],
+          "text": "changes, update the design",
+          "durationSec": 1.46,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_e58f69df",
+          "startSec": 34.26,
+          "effects": [],
+          "text": "without rebuilding the story,",
+          "durationSec": 1.66,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_741b9794",
+          "startSec": 35.92,
+          "effects": [],
+          "text": "that is the workflow we are",
+          "durationSec": 2.48,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.venv/bin/python",
+    "-c",
+    "import mlx_whisper,json;from pathlib import Path;r=mlx_whisper.transcribe('results/round-two/media/clean.mp4',path_or_hf_repo='mlx-community/whisper-base.en-mlx',word_timestamps=True,language='en');Path('results/round-two/mlx-clean-transcript.json').write_text(json.dumps(r,indent=2))"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "\nFetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]\nFetching 4 files: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 4/4 [00:00<00:00, 1750.73it/s]\n",
+  "elapsed_seconds": 1.552,
+  "observed_at": "2026-11-11T20:35:23.173174+00:00"
+}

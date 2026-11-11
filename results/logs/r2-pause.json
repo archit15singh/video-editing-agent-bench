@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-y",
+    "-f",
+    "lavfi",
+    "-i",
+    "color=c=0x17252c:s=1280x720:r=30",
+    "-f",
+    "lavfi",
+    "-i",
+    "anullsrc=r=48000:cl=mono",
+    "-t",
+    "1.6",
+    "-c:v",
+    "libx264",
+    "-pix_fmt",
+    "yuv420p",
+    "-c:a",
+    "aac",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/pause.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvvenc --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      61.  1.100 / 61.  1.100\n  libavcodec     63.  1.100 / 63.  1.100\n  libavformat    63.  1.100 / 63.  1.100\n  libavdevice    63.  1.100 / 63.  1.100\n  libavfilter    12.  1.100 / 12.  1.100\n  libswscale     10.  1.100 / 10.  1.100\n  libswresample   7.  1.100 /  7.  1.100\nInput #0, lavfi, from 'color=c=0x17252c:s=1280x720:r=30':\n  Duration: N/A, start: 0.000000, bitrate: N/A\n  Stream #0:0: Video: wrapped_avframe, yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 30 tbn\nInput #1, lavfi, from 'anullsrc=r=48000:cl=mono':\n  Duration: N/A, start: 0.000000, bitrate: 384 kb/s\n  Stream #1:0: Audio: pcm_u8, 48000 Hz, mono, u8, 384 kb/s\nStream mapping:\n  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> h264 (libx264))\n  Stream #1:0 -> #0:1 (pcm_u8 (native) -> aac (native))\nPress [q] to stop, [?] for help\n[libx264 @ 0x12e805700] using SAR=1/1\n[libx264 @ 0x12e805700] using cpu capabilities: ARMv8 NEON\n[libx264 @ 0x12e805700] profile High, level 3.1, 4:2:0, 8-bit\n[libx264 @ 0x12e805700] 264 - core 164 r3190 7ed753b - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\nOutput #0, mp4, to '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/pause.mp4':\n  Metadata:\n    encoder         : Lavf63.1.100\n  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn\n    Metadata:\n      encoder         : Lavc63.1.100 libx264\n    Side data:\n      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\n  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 69 kb/s\n    Metadata:\n      encoder         : Lavc63.1.100 aac\n[out#0/mp4 @ 0x600003278180] video:3KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 102.556634%\nframe=   48 fps=0.0 q=-1.0 Lsize=       6KiB time=00:00:01.60 bitrate=  31.3kbits/s speed=20.7x elapsed=0:00:00.07    \n[libx264 @ 0x12e805700] frame I:1     Avg QP:10.00  size:   219\n[libx264 @ 0x12e805700] frame P:12    Avg QP:10.58  size:    45\n[libx264 @ 0x12e805700] frame B:35    Avg QP:13.66  size:    38\n[libx264 @ 0x12e805700] consecutive B-frames:  2.1%  0.0%  6.2% 91.7%\n[libx264 @ 0x12e805700] mb I  I16..4: 100.0%  0.0%  0.0%\n[libx264 @ 0x12e805700] mb P  I16..4:  0.0%  0.0%  0.0%  P16..4:  0.0%  0.0%  0.0%  0.0%  0.0%    skip:100.0%\n[libx264 @ 0x12e805700] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.0%  0.0%  0.0%  direct: 0.0%  skip:100.0%\n[libx264 @ 0x12e805700] 8x8 transform intra:0.0%\n[libx264 @ 0x12e805700] coded y,uvDC,uvAC intra: 0.0% 0.0% 0.0% inter: 0.0% 0.0% 0.0%\n[libx264 @ 0x12e805700] i16 v,h,dc,p: 98%  0%  2%  0%\n[libx264 @ 0x12e805700] i8c dc,h,v,p: 100%  0%  0%  0%\n[libx264 @ 0x12e805700] Weighted P-Frames: Y:0.0% UV:0.0%\n[libx264 @ 0x12e805700] kb/s:10.40\n[aac @ 0x12e807850] Qavg: 65166.270\n",
+  "elapsed_seconds": 0.114,
+  "observed_at": "2026-11-11T20:26:12.502393+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "add-media",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/source.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"added\": \"media\",\n  \"clipId\": \"clip_45bc16e0\",\n  \"mediaId\": \"m_e0df4788fa8d\",\n  \"trackId\": \"v0\",\n  \"startSec\": 0\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.232,
+  "observed_at": "2026-11-11T20:26:42.125701+00:00"
+}

@@ -1,0 +1,6 @@
+{
+  "expected": "A useful video starts with a clear story. Frame Lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut. Remove the mistakes and long pauses, then check the words that remain. Give each visual one job. Highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise. Keep the narration clear, the captions readable, and the graphics consistent. When your brand changes, update the design without rebuilding the story. That is the workflow we are testing today.",
+  "recognized": "useful video starts with a clear story, frame lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose. Next, review the cut, remove the mistakes and long pauses, then check the words that remain, give each visual one job, highlight a decision, explain a change, or show the product in action. Finally, deliver a video that is easy to revise, keep the narration clear, the captions readable, and the graphics consistent, when your brand changes, update the design without rebuilding the story, that is the workflow we are testing today.",
+  "wer": 0.009523809523809525,
+  "rejected_take_absent": true
+}

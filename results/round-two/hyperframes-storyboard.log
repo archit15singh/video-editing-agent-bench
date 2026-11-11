@@ -1,0 +1,10 @@
+◆  Capturing 4 frames at [3.2s, 4.5s, 16.5s, 28.5s] from hyperframes-first
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to /Users/singh/.cache/hyperframes/fonts/inter)
+[INFO] [Compiler] Fetched 7 font face(s) for "EB Garamond" from Google Fonts (cached to /Users/singh/.cache/hyperframes/fonts/eb-garamond)
+[INFO] [Compiler] Injected deterministic @font-face rules for 2 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M6, Unspecified Version)")
+
+   Fonts: 14 loaded
+[hyperframes] snapshot: frame 1/4 at 3.2s
+
+✗ Snapshot failed: FFmpeg is required to extract video frames for snapshots. brew install ffmpeg

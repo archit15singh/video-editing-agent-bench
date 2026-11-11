@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/node_modules/.bin/clip",
+    "timeline",
+    "export",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/clean.mp4"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"exported\": \"/Users/singh/projects/video-editing-agent-bench/results/round-two/media/clean.mp4\",\n  \"steps\": 5,\n  \"durationSec\": 38.392,\n  \"durationMs\": 2357\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 2.447,
+  "observed_at": "2026-11-11T20:26:46.414112+00:00"
+}

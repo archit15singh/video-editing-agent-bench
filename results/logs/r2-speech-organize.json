@@ -1,0 +1,17 @@
+{
+  "command": [
+    "say",
+    "-v",
+    "Samantha",
+    "-r",
+    "166",
+    "-o",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/organize.aiff",
+    "A useful video starts with a clear story. Frame Lab brings your recordings, notes, and screenshots into one place. Start by organizing the material you actually need, so every scene has a purpose."
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "elapsed_seconds": 1.248,
+  "observed_at": "2026-11-11T20:26:11.605508+00:00"
+}

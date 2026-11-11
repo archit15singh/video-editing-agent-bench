@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/Users/singh/projects/video-editing-agent-bench/.tools/bin/ffmpeg",
+    "-y",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/clean.mp4",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/music.wav",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav",
+    "-i",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav",
+    "-filter_complex",
+    "[0:a]volume=1[voice];[1:a]volume=0.22,afade=t=in:d=1,afade=t=out:st=37.4:d=1[bed];[2:a]volume=0.35,adelay=3500:all=1[fx0];[3:a]volume=0.35,adelay=15500:all=1[fx1];[4:a]volume=0.35,adelay=27500:all=1[fx2];[voice][bed][fx0][fx1][fx2]amix=inputs=5:duration=first:normalize=0,alimiter=limit=0.95:level=0[mix]",
+    "-map",
+    "[mix]",
+    "-ar",
+    "48000",
+    "/Users/singh/projects/video-editing-agent-bench/results/round-two/media/mix.wav"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)\n  configuration: --prefix=/Volumes/tempdisk/sw --extra-cflags=-fno-stack-check --arch=arm64 --cc=/usr/bin/clang --enable-gpl --enable-libvmaf --enable-libopenjpeg --enable-libopus --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvvenc --enable-libvpx --enable-libwebp --enable-libass --enable-libfreetype --enable-fontconfig --enable-libtheora --enable-libvorbis --enable-libsnappy --enable-libaom --enable-libvidstab --enable-libzimg --enable-libsvtav1 --enable-libharfbuzz --enable-libkvazaar --pkg-config-flags=--static --enable-ffplay --enable-neon --enable-runtime-cpudetect --disable-indev=qtkit --disable-indev=x11grab_xcb\n  libavutil      61.  1.100 / 61.  1.100\n  libavcodec     63.  1.100 / 63.  1.100\n  libavformat    63.  1.100 / 63.  1.100\n  libavdevice    63.  1.100 / 63.  1.100\n  libavfilter    12.  1.100 / 12.  1.100\n  libswscale     10.  1.100 / 10.  1.100\n  libswresample   7.  1.100 /  7.  1.100\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/clean.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf60.3.100\n  Duration: 00:00:38.40, start: 0.000000, bitrate: 151 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 12 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n    Metadata:\n      handler_name    : VideoHandler\n      encoder         : Lavc60.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 130 kb/s (default)\n    Metadata:\n      handler_name    : SoundHandler\n[aist#1:0/pcm_s16le @ 0x132807d90] Guessed Channel Layout: mono\nInput #1, wav, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/music.wav':\n  Duration: 00:01:05.00, bitrate: 768 kb/s\n  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s\n[aist#2:0/pcm_s16le @ 0x132809450] Guessed Channel Layout: mono\nInput #2, wav, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav':\n  Duration: 00:00:00.35, bitrate: 769 kb/s\n  Stream #2:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s\n[aist#3:0/pcm_s16le @ 0x13280a720] Guessed Channel Layout: mono\nInput #3, wav, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav':\n  Duration: 00:00:00.35, bitrate: 769 kb/s\n  Stream #3:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s\n[aist#4:0/pcm_s16le @ 0x13280b670] Guessed Channel Layout: mono\nInput #4, wav, from '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/effect.wav':\n  Duration: 00:00:00.35, bitrate: 769 kb/s\n  Stream #4:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s\nStream mapping:\n  Stream #0:1 (aac) -> volume:default\n  Stream #1:0 (pcm_s16le) -> volume:default\n  Stream #2:0 (pcm_s16le) -> volume:default\n  Stream #3:0 (pcm_s16le) -> volume:default\n  Stream #4:0 (pcm_s16le) -> volume:default\n  alimiter:default -> Stream #0:0 (pcm_s16le)\nPress [q] to stop, [?] for help\nOutput #0, wav, to '/Users/singh/projects/video-editing-agent-bench/results/round-two/media/mix.wav':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    ISFT            : Lavf63.1.100\n  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s\n    Metadata:\n      encoder         : Lavc63.1.100 pcm_s16le\n[out#0/wav @ 0x6000020e0cc0] video:0KiB audio:7204KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.001057%\nsize=    7204KiB time=00:00:38.40 bitrate=1536.9kbits/s speed=1.46e+03x elapsed=0:00:00.02    \n",
+  "elapsed_seconds": 0.049,
+  "observed_at": "2026-11-11T20:35:23.255607+00:00"
+}

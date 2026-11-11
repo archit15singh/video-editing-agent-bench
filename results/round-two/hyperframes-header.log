@@ -1,0 +1,11 @@
+◆  Capturing 1 frames at [4.5s] from hyperframes-first
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Apple)" renderer="ANGLE (Apple, ANGLE Metal Renderer: Apple M6, Unspecified Version)")
+
+   Fonts: 2 loaded
+[hyperframes] snapshot: frame 1/1 at 4.5s
+   Revision: 58eec33d-5b7c-44f3-99cc-4cf725474c26 (recorded-revision)
+   State: /Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/.hyperframes/video-state.json
+
+◇  1 snapshots saved to /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-header
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-header/frame-00-at-4.5s.png
+   /Users/singh/projects/video-editing-agent-bench/results/round-two/media/hyperframes-header/contact-sheet.jpg (grid view for AI review)

@@ -1,5 +1,7 @@
 # Autonomous video editing benchmark
 
+**Round two completed:** [Narration, storyboarded graphics, shared audio and visual rebranding](docs/round-two/RESULTS.md) · [Playable outputs](artifacts/round-two.html) · [Reproduce](docs/round-two/README.md)
+
 **Live-tested:** MakeMyClip is the strongest fit here for editing recordings; Remotion gives better layout/motion control; NodeTool's standalone MCP preview works but its export jobs failed.
 
 [Read the measured results and qualitative analysis](docs/RESULTS.md) · [Open the playable report](artifacts/comparison.html) · [Methodology](docs/METHODOLOGY.md) · [Primary sources](docs/SOURCES.md)
@@ -47,4 +49,4 @@ python3 scripts/build_report.py
 - Generated media, models, caches and dependencies remain local. The self-contained HTML report embeds final sample videos and previews so it is reviewable from a checkout without those local directories.
 - MakeMyClip JSON/FCPXML and NodeTool timeline JSON are retained. FCPXML import into a pro editor is untested. Remotion source plus fixture manifest is the editable project.
 
-The repository is private. Upstream software keeps its own licences; Remotion uses custom terms. This repo does not redistribute model files or vendor source snapshots.
+The repository is public. Upstream software keeps its own licences; Remotion uses custom terms. This repo does not redistribute model files or vendor source snapshots.

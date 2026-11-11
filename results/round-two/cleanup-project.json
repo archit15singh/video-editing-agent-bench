@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "rev": 5,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "background": "black",
+  "tracks": [
+    {
+      "id": "v0",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "media",
+          "id": "clip_45bc16e0",
+          "startSec": 0,
+          "effects": [],
+          "mediaId": "m_e0df4788fa8d",
+          "sourceInSec": 4.24,
+          "sourceOutSec": 16.4829
+        },
+        {
+          "kind": "media",
+          "id": "clip_cdd8e54c",
+          "startSec": 12.2429,
+          "effects": [],
+          "mediaId": "m_e0df4788fa8d",
+          "sourceInSec": 18.9744,
+          "sourceOutSec": 30.8992
+        },
+        {
+          "kind": "media",
+          "id": "clip_c3663c9a",
+          "startSec": 24.167700000000004,
+          "effects": [],
+          "mediaId": "m_e0df4788fa8d",
+          "sourceInSec": 31.8311,
+          "sourceOutSec": 46.0554
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    },
+    {
+      "id": "captions",
+      "kind": "video",
+      "clips": [
+        {
+          "kind": "text",
+          "id": "clip_8bc228cc",
+          "startSec": 0,
+          "effects": [],
+          "text": "A useful video starts with",
+          "durationSec": 1.7,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_6b75f6fe",
+          "startSec": 1.7,
+          "effects": [],
+          "text": "a clear story.",
+          "durationSec": 1,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_a85c881b",
+          "startSec": 2.7,
+          "effects": [],
+          "text": "Frame lab brings your",
+          "durationSec": 1.2,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_4d3ea7ab",
+          "startSec": 3.9,
+          "effects": [],
+          "text": "recordings, notes, and",
+          "durationSec": 1.49,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_398283df",
+          "startSec": 5.39,
+          "effects": [],
+          "text": "screenshots into one place.",
+          "durationSec": 2.25,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_3bfac578",
+          "startSec": 7.64,
+          "effects": [],
+          "text": "Start by organizing the material",
+          "durationSec": 1.99,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_b1b8c173",
+          "startSec": 9.63,
+          "effects": [],
+          "text": "you actually need, so every",
+          "durationSec": 2.26,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_fd6d9eae",
+          "startSec": 11.89,
+          "effects": [],
+          "text": "scene has",
+          "durationSec": 0.352,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_5be02dec",
+          "startSec": 12.243,
+          "effects": [],
+          "text": "the cut, remove the mistakes",
+          "durationSec": 2.876,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_e4634338",
+          "startSec": 15.119,
+          "effects": [],
+          "text": "and long pauses, then check",
+          "durationSec": 1.75,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_f38abe36",
+          "startSec": 16.869,
+          "effects": [],
+          "text": "the words that remain, give",
+          "durationSec": 1.82,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_812663f9",
+          "startSec": 18.689,
+          "effects": [],
+          "text": "each visual one job, highlight",
+          "durationSec": 1.79,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_ffb94d27",
+          "startSec": 20.479,
+          "effects": [],
+          "text": "a decision, explain a change,",
+          "durationSec": 2.16,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_958cd6c3",
+          "startSec": 22.639,
+          "effects": [],
+          "text": "or show the product in",
+          "durationSec": 1.32,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_1dc8f2b2",
+          "startSec": 23.959,
+          "effects": [],
+          "text": "action.",
+          "durationSec": 0.208,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_449df208",
+          "startSec": 24.168,
+          "effects": [],
+          "text": "Finally, deliver a video that",
+          "durationSec": 1.909,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_ce69f766",
+          "startSec": 26.077,
+          "effects": [],
+          "text": "is easy to revise, keep",
+          "durationSec": 1.58,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_8ee42e4f",
+          "startSec": 27.657,
+          "effects": [],
+          "text": "the narration clear, the",
+          "durationSec": 1.35,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_5c51e336",
+          "startSec": 29.007,
+          "effects": [],
+          "text": "captions readable, and the",
+          "durationSec": 1.56,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_504a251a",
+          "startSec": 30.567,
+          "effects": [],
+          "text": "graphics consistent, when your",
+          "durationSec": 1.82,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_cf721c5d",
+          "startSec": 32.387,
+          "effects": [],
+          "text": "brand changes, update the design",
+          "durationSec": 1.87,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_9ecd8047",
+          "startSec": 34.257,
+          "effects": [],
+          "text": "without rebuilding the story,",
+          "durationSec": 1.77,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_1adfb458",
+          "startSec": 36.027,
+          "effects": [],
+          "text": "that is the workflow we",
+          "durationSec": 1.18,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        },
+        {
+          "kind": "text",
+          "id": "clip_ccd55d9d",
+          "startSec": 37.207,
+          "effects": [],
+          "text": "are testing today.",
+          "durationSec": 1.185,
+          "style": {
+            "fontSize": 30,
+            "color": "white",
+            "background": "black@0.6",
+            "anchor": "bottom-center"
+          }
+        }
+      ],
+      "transitions": [],
+      "muted": false
+    }
+  ]
+}

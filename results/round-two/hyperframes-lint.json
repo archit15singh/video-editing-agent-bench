@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 3,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"plate-0\"> is a timeline element that contains nested <div id=\"moving-0\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "plate-0",
+      "fixHint": "Move <section id=\"plate-0\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+      "line": 1,
+      "column": 2131
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"plate-1\"> is a timeline element that contains nested <div id=\"moving-1\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "plate-1",
+      "fixHint": "Move <section id=\"plate-1\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+      "line": 1,
+      "column": 2474
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"plate-2\"> is a timeline element that contains nested <div id=\"moving-2\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "plate-2",
+      "fixHint": "Move <section id=\"plate-2\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "/Users/singh/projects/video-editing-agent-bench/adapters/round-two/hyperframes-first/index.html",
+      "line": 1,
+      "column": 2817
+    }
+  ],
+  "filesScanned": 1,
+  "unmountedCompositions": [],
+  "_meta": {
+    "version": "0.9.34",
+    "updateAvailable": false
+  }
+}
