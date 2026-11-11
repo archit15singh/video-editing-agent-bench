@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+.tools/
+.cache/
+fixtures/generated/
+results/*/media/
+*.pyc
+__pycache__/
+.DS_Store

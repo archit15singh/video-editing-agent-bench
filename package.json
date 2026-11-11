@@ -1,0 +1,20 @@
+{
+  "name": "video-editing-agent-bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "doctor": "python3 scripts/bench.py doctor",
+    "fixture": "python3 scripts/bench.py fixture",
+    "verify": "python3 scripts/bench.py verify"
+  },
+  "dependencies": {
+    "@makemyclip/editor": "0.4.1",
+    "@remotion/cli": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "remotion": "4.0.543",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "@modelcontextprotocol/sdk": "1.28.0"
+  }
+}
