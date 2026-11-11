@@ -1,0 +1,2 @@
+# Preserve raw terminal evidence, including progress-line whitespace.
+results/** -whitespace
